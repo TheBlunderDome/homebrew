@@ -1,0 +1,89 @@
+{
+	"_meta": {
+		"dateAdded": 1712572800,
+		"convertedBy": [
+			"ChatGPT"
+		]
+	},
+	"race": [
+		{
+			"name": "Pixie",
+			"source": "ULD",
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"size": [
+				"T"
+			],
+			"speed": {
+				"walk": 10,
+				"fly": 40,
+				"canHover": true
+			},
+			"age": {
+				"number": 200,
+				"note": "Pixies mature at the same rate as humans and can live up to 200 years."
+			},
+			"heightAndWeight": {
+				"baseHeight": 12,
+				"heightMod": "1d4",
+				"baseWeight": 1,
+				"weightMod": "1"
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"name": "Fey",
+							"entries": [
+								"Your creature type is fey instead of humanoid."
+							]
+						},
+						{
+							"name": "Pixie Magic",
+							"entries": [
+								"You know the *druidcraft* cantrip.",
+								"At 3rd level, you can cast *faerie fire* once per long rest.",
+								"At 5th level, you can cast *sleep* once per long rest.",
+								"Charisma is your spellcasting ability for these spells."
+							]
+						},
+						{
+							"name": "Fey Ancestry",
+							"entries": [
+								"You have advantage on saving throws against being charmed.",
+								"Magic can't put you to sleep."
+							]
+						},
+						{
+							"name": "Tiny Stature",
+							"entries": [
+								"You are Tiny.",
+								"You can't wield weapons with the Heavy property.",
+								"You have disadvantage using equipment sized for Medium or larger creatures."
+							]
+						},
+						{
+							"name": "Wings",
+							"entries": [
+								"You have a flying speed of 40 feet.",
+								"You can hover.",
+								"You can't fly while wearing medium or heavy armor."
+							]
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common and Sylvan."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
