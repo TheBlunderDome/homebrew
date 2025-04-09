@@ -1,18 +1,26 @@
 {
 	"_meta": {
 		"dateAdded": 1712572800,
-		"convertedBy": ["ChatGPT"],
+		"convertedBy": [
+			"ChatGPT"
+		],
 		"sources": [
 			{
 				"json": "ULD",
 				"abbreviation": "ULD",
 				"full": "User-Linked D&D Wiki Homebrew",
-				"authors": ["D&D Wiki Homebrew"],
-				"convertedBy": ["ChatGPT"],
+				"authors": [
+					"D&D Wiki Homebrew"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
 				"url": "https://www.dandwiki.com/wiki/Pixie_(5e_Race)",
-				"dateAdded": 1712572800
+				"dateAdded": 1712572800,
+				"version": "unknown"
 			}
-		]
+		],
+		"dateLastModified": 1744180509
 	},
 	"race": [
 		{
@@ -24,7 +32,9 @@
 					"dex": 1
 				}
 			],
-			"size": ["T"],
+			"size": [
+				"T"
+			],
 			"speed": {
 				"walk": 10,
 				"fly": 40,
