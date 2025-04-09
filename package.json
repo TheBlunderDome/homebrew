@@ -21,14 +21,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TheGiddyLimit/homebrew.git"
+		"url": "git+https://github.com/TheBlunderDome/homebrew.git"
 	},
 	"author": "TheGiddyLimit + Friends",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/TheGiddyLimit/homebrew/issues"
+		"url": "https://github.com/TheBlunderDome/homebrew/issues"
 	},
-	"homepage": "https://github.com/TheGiddyLimit/homebrew#readme",
+	"homepage": "https://github.com/TheBlunderDome/homebrew#readme",
 	"devDependencies": {
 		"5etools-utils": "^0.13.10",
 		"commander": "^9.4.1",
