@@ -74,6 +74,12 @@
 							"entries": [
 								"You have a deeper link to nature. You gain Rank 1 in Dynamic Power (Nature), allowing basic control over natural surroundings."
 							]
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common, Elvish, and Sylvan."
+							]
 						}
 					]
 				}
