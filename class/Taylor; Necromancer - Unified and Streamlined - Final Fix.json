@@ -20,8 +20,8 @@
 				"dateLastModified": 1744262457
 			}
 		],
-		"dateAdded": 1744267202,
-		"dateLastModified": 1744267202
+		"dateAdded": 1744267477,
+		"dateLastModified": 1744267477
 	},
 	"class": [
 		{
@@ -990,20 +990,22 @@
 					"Simple weapons"
 				],
 				"tools": [],
-				"skills": {
-					"choose": {
-						"from": [
-							"Arcana",
-							"Deception",
-							"History",
-							"Intimidation",
-							"Medicine",
-							"Perception",
-							"Religion"
-						],
-						"count": 2
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"Arcana",
+								"Deception",
+								"History",
+								"Intimidation",
+								"Medicine",
+								"Perception",
+								"Religion"
+							],
+							"count": 2
+						}
 					}
-				},
+				],
 				"savingThrow": [
 					"Constitution",
 					"Charisma"
