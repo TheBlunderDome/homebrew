@@ -20,8 +20,8 @@
 				"dateLastModified": 1744262457
 			}
 		],
-		"dateAdded": 1744265008,
-		"dateLastModified": 1744265008
+		"dateAdded": 1744265451,
+		"dateLastModified": 1744265451
 	},
 	"class": [
 		{
@@ -110,9 +110,51 @@
 			],
 			"spellcastingAbility": "cha",
 			"casterProgression": "full",
-			"cantripProgression": "full",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
 			"preparedSpells": false,
-			"spellsKnownProgression": "arcane",
+			"spellsKnownProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15,
+				15,
+				15
+			],
 			"classTableGroups": [
 				{
 					"colLabels": [
@@ -578,6 +620,36 @@
 						"- Studded leather armor"
 					]
 				}
+			],
+			"subclassFeature": [
+				{
+					"classLevel": 2,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				},
+				{
+					"classLevel": 6,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				},
+				{
+					"classLevel": 10,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				},
+				{
+					"classLevel": 14,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				}
+			],
+			"savingThrow": [
+				"con",
+				"cha"
 			]
 		}
 	]
