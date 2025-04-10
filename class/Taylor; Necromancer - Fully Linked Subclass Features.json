@@ -20,8 +20,8 @@
 				"dateLastModified": 1744262457
 			}
 		],
-		"dateAdded": 1744267883,
-		"dateLastModified": 1744267883
+		"dateAdded": 1744268441,
+		"dateLastModified": 1744268441
 	},
 	"class": [
 		{
@@ -595,6 +595,86 @@
 						"Undead have disadvantage on saves against your Necromancer spells/features.",
 						"Mindless Undead are indifferent to you and companions unless harmed."
 					]
+				},
+				{
+					"name": "Life on Demand",
+					"level": 2,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Deliverer",
+					"level": 6,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Aura of Wellbeing",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Master of Mending",
+					"level": 14,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Inevitability",
+					"level": 2,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Improved Soul Harvest",
+					"level": 6,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Necrosis Spellcasting",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Grim Aura",
+					"level": 14,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Spirit Well",
+					"level": 2,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Bloodbag Army",
+					"level": 6,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Walking Wells",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Necrotic Pulse",
+					"level": 14,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Unholy Resistance",
+					"level": 2,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Improved Animation",
+					"level": 6,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Aura of Resolve",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Lord of the Undead",
+					"level": 14,
+					"source": "ULDNecromancerClass"
 				}
 			],
 			"subclasses": [
