@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744265451,
-		"dateLastModified": 1744265451
+		"dateAdded": 1744266097,
+		"dateLastModified": 1744266097
 	},
 	"subclass": [
 		{
@@ -155,6 +155,24 @@
 						"They take 6d6 necrotic damage on a failed save, half on a success. The Spirit Well is destroyed afterward.",
 						"You may choose to increase the aura of a Spirit Well you create to 30 feet."
 					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Occult Feature",
+					"level": 2
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 6
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 10
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 14
 				}
 			]
 		}

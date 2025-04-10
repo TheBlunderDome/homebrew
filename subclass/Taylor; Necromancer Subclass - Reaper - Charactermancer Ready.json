@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744265451,
-		"dateLastModified": 1744265451
+		"dateAdded": 1744266097,
+		"dateLastModified": 1744266097
 	},
 	"subclass": [
 		{
@@ -115,6 +115,24 @@
 						"Until the end of the turn, the next time you damage that creature with a Necromancy spell, it is vulnerable to that damage.",
 						"You can use this once per long rest or expend a 4th-level spell slot or higher to use it again."
 					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Occult Feature",
+					"level": 2
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 6
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 10
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 14
 				}
 			]
 		}

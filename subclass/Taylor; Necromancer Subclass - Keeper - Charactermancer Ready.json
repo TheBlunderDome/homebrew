@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744265451,
-		"dateLastModified": 1744265451
+		"dateAdded": 1744266097,
+		"dateLastModified": 1744266097
 	},
 	"subclass": [
 		{
@@ -141,6 +141,24 @@
 					"entries": [
 						"Whenever you roll dice to restore HP with a spell or Necromancer feature, use the maximum value of each die instead."
 					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Occult Feature",
+					"level": 2
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 6
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 10
+				},
+				{
+					"classFeature": "Occult Feature",
+					"level": 14
 				}
 			]
 		}
