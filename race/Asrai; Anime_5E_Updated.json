@@ -1,16 +1,34 @@
 {
 	"_meta": {
-		"source": "ULD",
-		"dateAdded": 1744126442,
 		"author": "Dyskami Publishing Company",
 		"convertedBy": "ChatGPT",
 		"version": "1.0.0",
-		"_dateLastModifiedHash": "71eda99537"
+		"dateAdded": 1744126442,
+		"source": "ULDAnime5E",
+		"sources": [
+			{
+				"json": "ULDAnime5E",
+				"abbreviation": "Anime 5E",
+				"full": "Anime 5E",
+				"authors": [
+					"Dyskami Publishing Company"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"version": "1.0.0",
+				"publisher": "Dyskami Publishing Company",
+				"dateReleased": "2021-07-01",
+				"source": "homebrew"
+			}
+		],
+		"dateLastModified": 1744254102
 	},
 	"race": [
 		{
 			"name": "Asrai",
-			"source": "ULD",
+			"source": "ULDAnime5E",
 			"size": [
 				"Medium"
 			],
