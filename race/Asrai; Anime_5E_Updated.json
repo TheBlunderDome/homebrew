@@ -1,17 +1,33 @@
 {
+	"_meta": {
+		"source": "ULD",
+		"dateAdded": 1744126442,
+		"author": "Dyskami Publishing Company",
+		"convertedBy": "ChatGPT",
+		"version": "1.0.0",
+		"_dateLastModifiedHash": "71eda99537"
+	},
 	"race": [
 		{
 			"name": "Asrai",
 			"source": "ULD",
-			"size": ["Medium"],
+			"size": [
+				"Medium"
+			],
 			"speed": {
 				"walk": 30,
 				"fly": 30
 			},
 			"ability": [
-				{ "dex": 1 },
-				{ "int": 1 },
-				{ "cha": 2 }
+				{
+					"dex": 1
+				},
+				{
+					"int": 1
+				},
+				{
+					"cha": 2
+				}
 			],
 			"entries": [
 				{
@@ -44,9 +60,16 @@
 					]
 				}
 			],
-			"traitTags": ["Flight", "Sixth Sense"],
+			"traitTags": [
+				"Flight",
+				"Sixth Sense"
+			],
 			"languageProficiencies": {
-				"proficient": ["Common", "Elvish", "Sylvan"]
+				"proficient": [
+					"Common",
+					"Elvish",
+					"Sylvan"
+				]
 			},
 			"hasFluff": true,
 			"hasFluffImages": false,
