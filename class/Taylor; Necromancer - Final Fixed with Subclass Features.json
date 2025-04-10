@@ -1,1606 +1,1608 @@
 {
- "_meta": {
-  "sources": [
-   {
-    "json": "ULDNecromancerClass",
-    "abbreviation": "Necromancer",
-    "full": "Necromancer (5e Class)",
-    "authors": [
-     "Taylor"
-    ],
-    "convertedBy": [
-     "Taylor"
-    ],
-    "url": "https://www.dandwiki.com/wiki/Necromancer_(5e_Class)",
-    "version": "1.0.0",
-    "source": "homebrew",
-    "dateReleased": "2024-01-01",
-    "publisher": "Homebrew",
-    "dateAdded": 1744262457,
-    "dateLastModified": 1744262457
-   }
-  ]
- },
- "class": [
-  {
-   "name": "Necromancer",
-   "source": "ULDNecromancerClass",
-   "hd": {
-    "number": 1,
-    "faces": 6
-   },
-   "proficiency": [
-    {
-     "type": "armor",
-     "proficiencies": [
-      "light"
-     ]
-    },
-    {
-     "type": "weapon",
-     "proficiencies": [
-      "simple"
-     ]
-    },
-    {
-     "type": "tool",
-     "proficiencies": []
-    },
-    {
-     "type": "save",
-     "proficiencies": [
-      "con",
-      "cha"
-     ]
-    },
-    {
-     "type": "skill",
-     "choose": {
-      "count": 2,
-      "from": [
-       "arcana",
-       "deception",
-       "history",
-       "intimidation",
-       "medicine",
-       "perception",
-       "religion"
-      ]
-     }
-    }
-   ],
-   "equipment": [
-    {
-     "options": [
-      {
-       "items": [
-        "sickle"
-       ]
-      },
-      {
-       "items": [
-        "dagger",
-        "dagger"
-       ]
-      }
-     ]
-    },
-    {
-     "options": [
-      {
-       "items": [
-        "dungeoneer's pack"
-       ]
-      },
-      {
-       "items": [
-        "explorer's pack"
-       ]
-      }
-     ]
-    },
-    {
-     "items": [
-      "arcane focus",
-      "studded leather armor"
-     ]
-    }
-   ],
-   "spellcastingAbility": "cha",
-   "casterProgression": "full",
-   "cantripProgression": [
-    2,
-    2,
-    2,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4
-   ],
-   "preparedSpells": false,
-   "spellsKnownProgression": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    12,
-    13,
-    13,
-    14,
-    14,
-    15,
-    15,
-    15,
-    15
-   ],
-   "classTableGroups": [
-    {
-     "colLabels": [
-      "Level",
-      "Proficiency Bonus",
-      "Cantrips Known",
-      "Spells Known",
-      "1st",
-      "2nd",
-      "3rd",
-      "4th",
-      "5th",
-      "6th",
-      "7th",
-      "8th",
-      "9th"
-     ],
-     "rows": [
-      [
-       1,
-       "+2",
-       2,
-       2,
-       2,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       2,
-       "+2",
-       2,
-       3,
-       3,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       3,
-       "+2",
-       2,
-       4,
-       4,
-       2,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       4,
-       "+2",
-       3,
-       5,
-       4,
-       3,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       5,
-       "+3",
-       3,
-       6,
-       4,
-       3,
-       2,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       6,
-       "+3",
-       3,
-       7,
-       4,
-       3,
-       3,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       7,
-       "+3",
-       3,
-       8,
-       4,
-       3,
-       3,
-       1,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       8,
-       "+3",
-       3,
-       9,
-       4,
-       3,
-       3,
-       2,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       9,
-       "+4",
-       3,
-       10,
-       4,
-       3,
-       3,
-       3,
-       1,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       10,
-       "+4",
-       4,
-       11,
-       4,
-       3,
-       3,
-       3,
-       2,
-       0,
-       0,
-       0,
-       0
-      ],
-      [
-       11,
-       "+4",
-       4,
-       12,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       0,
-       0,
-       0
-      ],
-      [
-       12,
-       "+4",
-       4,
-       12,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       0,
-       0,
-       0
-      ],
-      [
-       13,
-       "+5",
-       4,
-       13,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       1,
-       0,
-       0
-      ],
-      [
-       14,
-       "+5",
-       4,
-       13,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       1,
-       0,
-       0
-      ],
-      [
-       15,
-       "+5",
-       4,
-       14,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       1,
-       1,
-       0
-      ],
-      [
-       16,
-       "+5",
-       4,
-       14,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       1,
-       1,
-       0
-      ],
-      [
-       17,
-       "+6",
-       4,
-       15,
-       4,
-       3,
-       3,
-       3,
-       2,
-       1,
-       1,
-       1,
-       1
-      ],
-      [
-       18,
-       "+6",
-       4,
-       15,
-       4,
-       3,
-       3,
-       3,
-       3,
-       1,
-       1,
-       1,
-       1
-      ],
-      [
-       19,
-       "+6",
-       4,
-       15,
-       4,
-       3,
-       3,
-       3,
-       3,
-       2,
-       1,
-       1,
-       1
-      ],
-      [
-       20,
-       "+6",
-       4,
-       15,
-       4,
-       3,
-       3,
-       3,
-       3,
-       2,
-       2,
-       1,
-       1
-      ]
-     ]
-    }
-   ],
-   "features": [
-    {
-     "name": "Spellcasting",
-     "level": 1,
-     "entries": [
-      "You draw on the negative energy in the world to fuel your spells.",
-      {
-       "type": "entries",
-       "name": "Cantrips",
-       "entries": [
-        "At 1st level, you know 2 cantrips of your choice from the Necromancer Spell List. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Necromancer table."
-       ]
-      },
-      {
-       "type": "entries",
-       "name": "Spell Slots",
-       "entries": [
-        "The Necromancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
-        "For example, if you know the 1st-level spell false life and have a 1st-level and a 2nd-level spell slot available, you can cast false life using either slot."
-       ]
-      },
-      {
-       "type": "entries",
-       "name": "Spells Known of 1st Level and Higher",
-       "entries": [
-        "You know two 1st-level spells of your choice from the Necromancer Spell List.",
-        "The Spells Known column of the Necromancer table shows when you learn more necromancer spells of your choice. Each of these spells must be of a level for which you have spell slots.",
-        "When you gain a level in this class, you can choose one of the necromancer spells you know and replace it with another necromancer spell."
-       ]
-      },
-      {
-       "type": "entries",
-       "name": "Spellcasting Ability",
-       "entries": [
-        "Charisma is your spellcasting ability for your necromancer spells.",
-        "- Spell save DC = 8 + your proficiency bonus + your Charisma modifier",
-        "- Spell attack modifier = your proficiency bonus + your Charisma modifier"
-       ]
-      },
-      {
-       "type": "entries",
-       "name": "Ritual Casting",
-       "entries": [
-        "You can cast a Necromancer spell as a ritual if it has the ritual tag and you know the spell."
-       ]
-      },
-      {
-       "type": "entries",
-       "name": "Spellcasting Focus",
-       "entries": [
-        "You can use an arcane focus as a spellcasting focus for your necromancer spells."
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Necrotic Suffusion",
-     "level": 1,
-     "entries": [
-      "As an action, target a creature within 15 ft.",
-      "- If undead under your control: it regains 1d8 + Charisma mod HP.",
-      "- Otherwise: creature makes CON save or takes 1d8 + Charisma mod necrotic damage.",
-      "Uses = Charisma modifier (min 1). Recharge on long rest.",
-      "Damage/heal increases to 2d8 at level 5, 3d8 at level 11, 4d8 at level 17."
-     ]
-    },
-    {
-     "name": "Necromancer Occult",
-     "level": 2,
-     "entries": [
-      "At 2nd level, choose an Occult: Keeper, Reaper, Undertaker, or Witch Doctor.",
-      "Grants features at 2nd, 6th, 10th, and 14th levels."
-     ]
-    },
-    {
-     "name": "Soul Harvest",
-     "level": 3,
-     "entries": [
-      "When you or your undead reduce a creature to 0 HP, use your reaction to gain temp HP = target's CON modifier + your Necromancer level (min 1)."
-     ]
-    },
-    {
-     "name": "Ability Score Improvement",
-     "level": 4,
-     "entries": [
-      "At 4th level and again at 8th, 12th, 16th, and 19th level, increase one ability score by 2 or two scores by 1 (max 20)."
-     ]
-    },
-    {
-     "name": "Spontaneous Unburial",
-     "level": 5,
-     "entries": [
-      "You learn <spell animate dead>, which doesn’t count against spells known.",
-      "You can cast it as an action and don’t need a corpse—just be in a graveyard or battlefield.",
-      "It animates the nearest cadaver, which digs itself out if buried."
-     ]
-    },
-    {
-     "name": "Animate Major Undead",
-     "level": 11,
-     "entries": [
-      "Cast <spell animate dead> on Huge or smaller corpse of humanoid, beast, or monstrosity (CR 5 or lower).",
-      "- Choose Skeletal or Zombified form (traits change).",
-      "- One Major Undead at a time. Reassert control with this feature.",
-      "- 1 use/long rest.",
-      "At 15th level: CR 8 or lower (giant, monstrosity, humanoid, beast).",
-      "At 18th level: CR 12 or lower (add aberration, dragon); control lasts until it drops to 0 HP or you use this again."
-     ]
-    },
-    {
-     "name": "Macabre",
-     "level": 20,
-     "entries": [
-      "You gain immunity to: charmed, exhaustion, frightened, paralyzed, and poisoned.",
-      "You don’t age naturally (magic aging still applies).",
-      "Advantage on Charisma checks to influence Undead.",
-      "Undead have disadvantage on saves against your Necromancer spells/features.",
-      "Mindless Undead are indifferent to you and companions unless harmed."
-     ]
-    }
-   ],
-   "subclasses": [
-    {
-     "name": "Keeper",
-     "shortName": "Keeper",
-     "source": "ULDNecromancerClass"
-    },
-    {
-     "name": "Reaper",
-     "shortName": "Reaper",
-     "source": "ULDNecromancerClass"
-    },
-    {
-     "name": "Witch Doctor",
-     "shortName": "Witch Doctor",
-     "source": "ULDNecromancerClass"
-    },
-    {
-     "name": "Undertaker",
-     "shortName": "Undertaker",
-     "source": "ULDNecromancerClass"
-    }
-   ],
-   "entries": [
-    {
-     "type": "entries",
-     "name": "What is a Necromancer?",
-     "entries": [
-      "Necromancers study death, undeath, and the energies that lie between. Their dark art channels power through bones, blood, and spirit alike. While many fear them, they wield magic that manipulates life and death itself."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Proficiencies",
-     "entries": [
-      "**Armor:** Light armor",
-      "**Weapons:** Simple weapons",
-      "**Tools:** None",
-      "**Saving Throws:** Constitution, Charisma",
-      "**Skills:** Choose two from Arcana, Deception, History, Intimidation, Medicine, Perception, and Religion"
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Equipment",
-     "entries": [
-      "You start with the following equipment, in addition to the equipment granted by your background:",
-      "- (a) a sickle or (b) two daggers",
-      "- (a) a dungeoneer’s pack or (b) an explorer’s pack",
-      "- An arcane focus",
-      "- Studded leather armor"
-     ]
-    }
-   ],
-   "subclassFeature": [
-    {
-     "classLevel": 2,
-     "subclassFeature": [
-      "Occult Feature"
-     ]
-    },
-    {
-     "classLevel": 6,
-     "subclassFeature": [
-      "Occult Feature"
-     ]
-    },
-    {
-     "classLevel": 10,
-     "subclassFeature": [
-      "Occult Feature"
-     ]
-    },
-    {
-     "classLevel": 14,
-     "subclassFeature": [
-      "Occult Feature"
-     ]
-    }
-   ],
-   "savingThrow": [
-    "con",
-    "cha"
-   ],
-   "table": [
-    [
-     1,
-     "+2",
-     2,
-     2,
-     2,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     2,
-     "+2",
-     2,
-     3,
-     3,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     3,
-     "+2",
-     2,
-     4,
-     4,
-     2,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     4,
-     "+2",
-     3,
-     5,
-     4,
-     3,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     5,
-     "+3",
-     3,
-     6,
-     4,
-     3,
-     2,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     6,
-     "+3",
-     3,
-     7,
-     4,
-     3,
-     3,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     7,
-     "+3",
-     3,
-     8,
-     4,
-     3,
-     3,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     8,
-     "+3",
-     3,
-     9,
-     4,
-     3,
-     3,
-     2,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     9,
-     "+4",
-     3,
-     10,
-     4,
-     3,
-     3,
-     3,
-     1,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     10,
-     "+4",
-     4,
-     11,
-     4,
-     3,
-     3,
-     3,
-     2,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     11,
-     "+4",
-     4,
-     12,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     0,
-     0,
-     0
-    ],
-    [
-     12,
-     "+4",
-     4,
-     12,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     0,
-     0,
-     0
-    ],
-    [
-     13,
-     "+5",
-     4,
-     13,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     1,
-     0,
-     0
-    ],
-    [
-     14,
-     "+5",
-     4,
-     13,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     1,
-     0,
-     0
-    ],
-    [
-     15,
-     "+5",
-     4,
-     14,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     1,
-     1,
-     0
-    ],
-    [
-     16,
-     "+5",
-     4,
-     14,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     1,
-     1,
-     0
-    ],
-    [
-     17,
-     "+6",
-     4,
-     15,
-     4,
-     3,
-     3,
-     3,
-     2,
-     1,
-     1,
-     1,
-     1
-    ],
-    [
-     18,
-     "+6",
-     4,
-     15,
-     4,
-     3,
-     3,
-     3,
-     3,
-     1,
-     1,
-     1,
-     1
-    ],
-    [
-     19,
-     "+6",
-     4,
-     15,
-     4,
-     3,
-     3,
-     3,
-     3,
-     2,
-     1,
-     1,
-     1
-    ],
-    [
-     20,
-     "+6",
-     4,
-     15,
-     4,
-     3,
-     3,
-     3,
-     3,
-     2,
-     2,
-     1,
-     1
-    ]
-   ],
-   "startingProficiencies": {
-    "armor": [
-     "Light armor"
-    ],
-    "weapons": [
-     "Simple weapons"
-    ],
-    "tools": [],
-    "skills": [
-     {
-      "choose": {
-       "from": [
-        "Arcana",
-        "Deception",
-        "History",
-        "Intimidation",
-        "Medicine",
-        "Perception",
-        "Religion"
-       ],
-       "count": 2
-      }
-     }
-    ],
-    "savingThrow": [
-     "Constitution",
-     "Charisma"
-    ]
-   },
-   "startingEquipment": {
-    "default": [
-     [
-      "(a) a sickle or (b) two daggers"
-     ],
-     [
-      "(a) a dungeoneer's pack or (b) an explorer's pack"
-     ],
-     [
-      "An arcane focus"
-     ],
-     [
-      "Studded leather armor"
-     ]
-    ],
-    "goldAlternative": "3d4 × 10 gp"
-   },
-   "subclassTitle": "Occult",
-   "hasFluff": true,
-   "multiclassing": {},
-   "classFeatures": [
-    {
-     "name": "Spellcasting",
-     "level": 1
-    },
-    {
-     "name": "Necrotic Suffusion",
-     "level": 1
-    },
-    {
-     "name": "Necromancer Occult",
-     "level": 2
-    },
-    {
-     "name": "Soul Harvest",
-     "level": 3
-    },
-    {
-     "name": "Ability Score Improvement",
-     "level": 4
-    },
-    {
-     "name": "Spontaneous Unburial",
-     "level": 5
-    },
-    {
-     "name": "Animate Major Undead",
-     "level": 11
-    },
-    {
-     "name": "Macabre",
-     "level": 20
-    }
-   ]
-  }
- ],
- "subclass": [
-  {
-   "name": "Keeper",
-   "shortName": "Keeper",
-   "source": "ULDNecromancerClass",
-   "className": "Necromancer",
-   "classSource": "ULDNecromancerClass",
-   "features": [
-    {
-     "name": "Keeper Spells",
-     "level": 2,
-     "entries": [
-      "Starting at 2nd level, you always have the following spells prepared, and they don’t count against your number of spells known:",
-      {
-       "type": "list",
-       "items": [
-        "2nd Level: <spell spare the dying>, <spell cure wounds>, <spell life sap|ULDNecromancerClass>",
-        "3rd Level: <spell lesser restoration>, <spell aid>",
-        "5th Level: <spell aura of vitality>, <spell beacon of hope>",
-        "7th Level: <spell aura of life>, <spell aura of purity>",
-        "9th Level: <spell greater restoration>, <spell mass cure wounds>"
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Life on Demand",
-     "level": 2,
-     "entries": [
-      "As an action, you touch a willing creature. It expends one Hit Die, rolls it, and adds your Charisma modifier. It regains hit points equal to the total (minimum 1).",
-      "You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
-     ]
-    },
-    {
-     "name": "Deliverer",
-     "level": 6,
-     "entries": [
-      "As a reaction when you or a creature within 30 feet is hit by a critical hit, you can turn it into a normal hit. Any effects triggered by a critical hit are canceled.",
-      "You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
-     ]
-    },
-    {
-     "name": "Aura of Wellbeing",
-     "level": 10,
-     "entries": [
-      "When an undead starts its turn within 10 feet of you, you can grant it temporary HP equal to 1d6 + your Charisma modifier.",
-      "You can also grant temp HP this way to any creature within 10 feet that starts its turn with half or fewer hit points remaining."
-     ]
-    },
-    {
-     "name": "Master of Mending",
-     "level": 14,
-     "entries": [
-      "Whenever you roll dice to restore HP with a spell or Necromancer feature, use the maximum value of each die instead."
-     ]
-    }
-   ],
-   "fluff": {
-    "entries": [
-     "Necromancers of this Occult study death in order to keep it at bay. Keepers understand how and why creatures die, and how to prevent it."
-    ]
-   },
-   "entries": [
-    {
-     "type": "entries",
-     "name": "Keeper",
-     "entries": [
-      "Necromancers of this Occult study death in order to keep it at bay. Keepers understand how and why creatures die, and how to prevent it."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Keeper Spells",
-     "entries": [
-      "Starting at 2nd level, you always have the following spells prepared, and they don’t count against your number of spells known:",
-      {
-       "type": "list",
-       "items": [
-        "2nd Level: <spell spare the dying>, <spell cure wounds>, <spell life sap|ULDNecromancerClass>",
-        "3rd Level: <spell lesser restoration>, <spell aid>",
-        "5th Level: <spell aura of vitality>, <spell beacon of hope>",
-        "7th Level: <spell aura of life>, <spell aura of purity>",
-        "9th Level: <spell greater restoration>, <spell mass cure wounds>"
-       ]
-      }
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Life on Demand",
-     "entries": [
-      "As an action, you touch a willing creature. It expends one Hit Die, rolls it, and adds your Charisma modifier. It regains hit points equal to the total (minimum 1).",
-      "You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Deliverer",
-     "entries": [
-      "As a reaction when you or a creature within 30 feet is hit by a critical hit, you can turn it into a normal hit. Any effects triggered by a critical hit are canceled.",
-      "You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Aura of Wellbeing",
-     "entries": [
-      "When an undead starts its turn within 10 feet of you, you can grant it temporary HP equal to 1d6 + your Charisma modifier.",
-      "You can also grant temp HP this way to any creature within 10 feet that starts its turn with half or fewer hit points remaining."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Master of Mending",
-     "entries": [
-      "Whenever you roll dice to restore HP with a spell or Necromancer feature, use the maximum value of each die instead."
-     ]
-    }
-   ],
-   "subclassFeatures": [
-    {
-     "classFeature": "Life on Demand",
-     "level": 2
-    },
-    {
-     "classFeature": "Deliverer",
-     "level": 6
-    },
-    {
-     "classFeature": "Aura of Wellbeing",
-     "level": 10
-    },
-    {
-     "classFeature": "Master of Mending",
-     "level": 14
-    }
-   ]
-  },
-  {
-   "name": "Reaper",
-   "shortName": "Reaper",
-   "source": "ULDNecromancerClass",
-   "className": "Necromancer",
-   "classSource": "ULDNecromancerClass",
-   "features": [
-    {
-     "name": "Inevitability",
-     "level": 2,
-     "entries": [
-      "Whenever you target a creature with a Necromancy cantrip and miss with the attack roll or the target succeeds on a saving throw, the target takes half damage but no other effects.",
-      "Additionally, when you cast a Necromancy spell of 1st level or higher, add your proficiency bonus to one damage roll of that spell."
-     ]
-    },
-    {
-     "name": "Improved Soul Harvest",
-     "level": 6,
-     "entries": [
-      "When you cast a Necromancy spell while you have temporary hit points, you can reduce your temporary hit points by up to twice your Charisma modifier.",
-      "Increase one damage roll of that spell by the amount of temporary hit points lost."
-     ]
-    },
-    {
-     "name": "Necrosis Spellcasting",
-     "level": 10,
-     "entries": [
-      "Whenever you deal damage to one or more creatures with a Necromancy spell, choose one of the targets.",
-      "That creature takes an additional 1d8 necrotic damage, or 2d8 if the target is undead."
-     ]
-    },
-    {
-     "name": "Grim Aura",
-     "level": 14,
-     "entries": [
-      "You emit an aura of death in a 10-foot radius while not incapacitated. Non-magical plants in this area wither.",
-      "Creatures of your choice in the aura can't regain hit points or become stable.",
-      "Once per turn, you can use a bonus action to target a creature within 30 feet. It must make a Constitution saving throw or become wreathed in miasma.",
-      "Until the end of the turn, the next time you damage that creature with a Necromancy spell, it is vulnerable to that damage.",
-      "You can use this once per long rest or expend a 4th-level spell slot or higher to use it again."
-     ]
-    }
-   ],
-   "fluff": {
-    "entries": [
-     "Reapers channel death like an artist commands their tools. They see beauty in the moment of demise and wield necrotic magic with precision and power."
-    ]
-   },
-   "entries": [
-    {
-     "type": "entries",
-     "name": "Reaper",
-     "entries": [
-      "Reapers channel death like an artist commands their tools. They see beauty in the moment of demise and wield necrotic magic with precision and power."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Inevitability",
-     "entries": [
-      "Whenever you target a creature with a Necromancy cantrip and miss with the attack roll or the target succeeds on a saving throw, the target takes half damage but no other effects.",
-      "Additionally, when you cast a Necromancy spell of 1st level or higher, add your proficiency bonus to one damage roll of that spell."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Improved Soul Harvest",
-     "entries": [
-      "When you cast a Necromancy spell while you have temporary hit points, you can reduce your temporary hit points by up to twice your Charisma modifier.",
-      "Increase one damage roll of that spell by the amount of temporary hit points lost."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Necrosis Spellcasting",
-     "entries": [
-      "Whenever you deal damage to one or more creatures with a Necromancy spell, choose one of the targets.",
-      "That creature takes an additional 1d8 necrotic damage, or 2d8 if the target is undead."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Grim Aura",
-     "entries": [
-      "You emit an aura of death in a 10-foot radius while not incapacitated. Non-magical plants in this area wither.",
-      "Creatures of your choice in the aura can't regain hit points or become stable.",
-      "Once per turn, you can use a bonus action to target a creature within 30 feet. It must make a Constitution saving throw or become wreathed in miasma.",
-      "Until the end of the turn, the next time you damage that creature with a Necromancy spell, it is vulnerable to that damage.",
-      "You can use this once per long rest or expend a 4th-level spell slot or higher to use it again."
-     ]
-    }
-   ],
-   "subclassFeatures": [
-    {
-     "classFeature": "Inevitability",
-     "level": 2
-    },
-    {
-     "classFeature": "Improved Soul Harvest",
-     "level": 6
-    },
-    {
-     "classFeature": "Necrosis Spellcasting",
-     "level": 10
-    },
-    {
-     "classFeature": "Grim Aura",
-     "level": 14
-    }
-   ]
-  },
-  {
-   "name": "Witch Doctor",
-   "shortName": "Witch Doctor",
-   "source": "ULDNecromancerClass",
-   "className": "Necromancer",
-   "classSource": "ULDNecromancerClass",
-   "features": [
-    {
-     "name": "Spirit Well",
-     "level": 2,
-     "entries": [
-      "As an action, you can touch a corpse to create a Spirit Well with a 10 ft radius aura. The well can be moved by moving the corpse.",
-      "You choose the type of Spirit Well upon creation. Spirit Wells turn to ash after 1 minute or when destroyed (AC 8, 15 HP, immune to psychic and poison).",
-      "You can use this feature twice. Regain 1 use on a short rest, all on a long rest.",
-      "Wells available:",
-      {
-       "type": "list",
-       "items": [
-        "Well of Blindness: Forces CON save or blinded until end of turn.",
-        "Well of Hate: On damage, forces CON save or takes extra necrotic damage (1d10–4d10 scaling).",
-        "Well of Restrict: DEX save or treat aura as difficult terrain.",
-        "Well of Succor: Grants Half Cover.",
-        "Well of Terror: WIS save or frightened of the Well.",
-        "Well of Darkness (lvl 6): Area acts as <spell darkness>.",
-        "Well of Silence (lvl 6): Area acts as <spell silence>.",
-        "Well of Binding (lvl 10): CHA save or unable to leave aura.",
-        "Well of Fatigue (lvl 10): CON save or gain 1 level of exhaustion until outside the aura.",
-        "Well of Blood (lvl 14): End of turn, gain temp HP or take necrotic damage (1d6 + CHA).",
-        "Well of Fortune (lvl 14): Advantage on saves vs magic.",
-        "Well of Misfortune (lvl 14): Disadvantage on saves vs magic."
-       ]
-      },
-      "Spirit Well saves use your Necromancer spell save DC. You or your Undead automatically succeed on these saves if affected."
-     ]
-    },
-    {
-     "name": "Bloodbag Army",
-     "level": 6,
-     "entries": [
-      "As an action, choose one Undead you control and one willing creature within 30 ft of it.",
-      "The Undead drops to 0 HP. The willing creature regains the same amount of HP lost by the Undead.",
-      "Until your next turn, that creature has advantage on its next attack, ability check, or saving throw."
-     ]
-    },
-    {
-     "name": "Walking Wells",
-     "level": 10,
-     "entries": [
-      "You can now turn your Undead into Spirit Wells. Touch one to apply a Spirit Well aura to it.",
-      "It remains animate and emits the effect for up to 1 minute or until reduced to 0 HP.",
-      "Your maximum number of Spirit Wells is now equal to your proficiency bonus."
-     ]
-    },
-    {
-     "name": "Necrotic Pulse",
-     "level": 14,
-     "entries": [
-      "As a bonus action, choose one active Spirit Well within 120 ft. All creatures within 30 ft must make a CON save.",
-      "They take 6d6 necrotic damage on a failed save, half on a success. The Spirit Well is destroyed afterward.",
-      "You may choose to increase the aura of a Spirit Well you create to 30 feet."
-     ]
-    }
-   ],
-   "fluff": {
-    "entries": [
-     "Witch Doctors practice ancient necromantic traditions handed down over generations. Their magic is personal, spiritual, and feared—but sometimes, it is the last hope."
-    ]
-   },
-   "entries": [
-    {
-     "type": "entries",
-     "name": "Witch Doctor",
-     "entries": [
-      "Witch Doctors practice ancient necromantic traditions handed down over generations. Their magic is personal, spiritual, and feared—but sometimes, it is the last hope."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Spirit Well",
-     "entries": [
-      "As an action, you can touch a corpse to create a Spirit Well with a 10 ft radius aura. The well can be moved by moving the corpse.",
-      "You choose the type of Spirit Well upon creation. Spirit Wells turn to ash after 1 minute or when destroyed (AC 8, 15 HP, immune to psychic and poison).",
-      "You can use this feature twice. Regain 1 use on a short rest, all on a long rest.",
-      "Wells available:",
-      {
-       "type": "list",
-       "items": [
-        "Well of Blindness: Forces CON save or blinded until end of turn.",
-        "Well of Hate: On damage, forces CON save or takes extra necrotic damage (1d10–4d10 scaling).",
-        "Well of Restrict: DEX save or treat aura as difficult terrain.",
-        "Well of Succor: Grants Half Cover.",
-        "Well of Terror: WIS save or frightened of the Well.",
-        "Well of Darkness (lvl 6): Area acts as <spell darkness>.",
-        "Well of Silence (lvl 6): Area acts as <spell silence>.",
-        "Well of Binding (lvl 10): CHA save or unable to leave aura.",
-        "Well of Fatigue (lvl 10): CON save or gain 1 level of exhaustion until outside the aura.",
-        "Well of Blood (lvl 14): End of turn, gain temp HP or take necrotic damage (1d6 + CHA).",
-        "Well of Fortune (lvl 14): Advantage on saves vs magic.",
-        "Well of Misfortune (lvl 14): Disadvantage on saves vs magic."
-       ]
-      },
-      "Spirit Well saves use your Necromancer spell save DC. You or your Undead automatically succeed on these saves if affected."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Bloodbag Army",
-     "entries": [
-      "As an action, choose one Undead you control and one willing creature within 30 ft of it.",
-      "The Undead drops to 0 HP. The willing creature regains the same amount of HP lost by the Undead.",
-      "Until your next turn, that creature has advantage on its next attack, ability check, or saving throw."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Walking Wells",
-     "entries": [
-      "You can now turn your Undead into Spirit Wells. Touch one to apply a Spirit Well aura to it.",
-      "It remains animate and emits the effect for up to 1 minute or until reduced to 0 HP.",
-      "Your maximum number of Spirit Wells is now equal to your proficiency bonus."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Necrotic Pulse",
-     "entries": [
-      "As a bonus action, choose one active Spirit Well within 120 ft. All creatures within 30 ft must make a CON save.",
-      "They take 6d6 necrotic damage on a failed save, half on a success. The Spirit Well is destroyed afterward.",
-      "You may choose to increase the aura of a Spirit Well you create to 30 feet."
-     ]
-    }
-   ],
-   "subclassFeatures": [
-    {
-     "classFeature": "Spirit Well",
-     "level": 2
-    },
-    {
-     "classFeature": "Bloodbag Army",
-     "level": 6
-    },
-    {
-     "classFeature": "Walking Wells",
-     "level": 10
-    },
-    {
-     "classFeature": "Necrotic Pulse",
-     "level": 14
-    }
-   ]
-  },
-  {
-   "name": "Undertaker",
-   "shortName": "Undertaker",
-   "source": "ULDNecromancerClass",
-   "className": "Necromancer",
-   "classSource": "ULDNecromancerClass",
-   "features": [
-    {
-     "name": "Unholy Resistance",
-     "level": 2,
-     "entries": [
-      "You gain resistance to necrotic damage.",
-      "You become immune to spells and effects that reduce your hit point maximum or ability scores."
-     ]
-    },
-    {
-     "name": "Improved Animation",
-     "level": 6,
-     "entries": [
-      "When you cast <spell animate dead>, you can target one additional corpse or pile of bones to create an extra skeleton or zombie.",
-      "This does not apply when using Animate Major Undead.",
-      "Whenever you create an Undead with a Necromancy spell, you can grant it the following benefits:",
-      {
-       "type": "list",
-       "items": [
-        "HP maximum increased by your Charisma modifier.",
-        "Uses your spell attack modifier for its attack rolls.",
-        "Gains resistance to necrotic damage.",
-        "Is immune to effects that reduce HP maximum or ability scores."
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Aura of Resolve",
-     "level": 10,
-     "entries": [
-      "Undead under your control within 30 ft gain the following:",
-      {
-       "type": "list",
-       "items": [
-        "Immunity to being Turned or Frightened.",
-        "Their attacks count as magical for overcoming resistances/immunities.",
-        "They gain a bonus to saving throws equal to your Charisma modifier."
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Lord of the Undead",
-     "level": 14,
-     "entries": [
-      "When casting <spell animate dead>, you can raise a Ghoul instead of a Zombie, or a Toxotai instead of a Skeleton."
-     ]
-    }
-   ],
-   "fluff": {
-    "entries": [
-     "Undertakers are necromancers who focus on raising and improving Undead. They wield larger undead armies than most, and specialize in enhancing their durability and strength."
-    ]
-   },
-   "entries": [
-    {
-     "type": "entries",
-     "name": "Undertaker",
-     "entries": [
-      "Undertakers are necromancers who focus on raising and improving Undead. They wield larger undead armies than most, and specialize in enhancing their durability and strength."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Unholy Resistance",
-     "entries": [
-      "You gain resistance to necrotic damage.",
-      "You become immune to spells and effects that reduce your hit point maximum or ability scores."
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Improved Animation",
-     "entries": [
-      "When you cast <spell animate dead>, you can target one additional corpse or pile of bones to create an extra skeleton or zombie.",
-      "This does not apply when using Animate Major Undead.",
-      "Whenever you create an Undead with a Necromancy spell, you can grant it the following benefits:",
-      {
-       "type": "list",
-       "items": [
-        "HP maximum increased by your Charisma modifier.",
-        "Uses your spell attack modifier for its attack rolls.",
-        "Gains resistance to necrotic damage.",
-        "Is immune to effects that reduce HP maximum or ability scores."
-       ]
-      }
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Aura of Resolve",
-     "entries": [
-      "Undead under your control within 30 ft gain the following:",
-      {
-       "type": "list",
-       "items": [
-        "Immunity to being Turned or Frightened.",
-        "Their attacks count as magical for overcoming resistances/immunities.",
-        "They gain a bonus to saving throws equal to your Charisma modifier."
-       ]
-      }
-     ]
-    },
-    {
-     "type": "entries",
-     "name": "Lord of the Undead",
-     "entries": [
-      "When casting <spell animate dead>, you can raise a Ghoul instead of a Zombie, or a Toxotai instead of a Skeleton."
-     ]
-    }
-   ],
-   "subclassFeatures": [
-    {
-     "classFeature": "Unholy Resistance",
-     "level": 2
-    },
-    {
-     "classFeature": "Improved Animation",
-     "level": 6
-    },
-    {
-     "classFeature": "Aura of Resolve",
-     "level": 10
-    },
-    {
-     "classFeature": "Lord of the Undead",
-     "level": 14
-    }
-   ]
-  }
- ]
+	"_meta": {
+		"sources": [
+			{
+				"json": "ULDNecromancerClass",
+				"abbreviation": "Necromancer",
+				"full": "Necromancer (5e Class)",
+				"authors": [
+					"Taylor"
+				],
+				"convertedBy": [
+					"Taylor"
+				],
+				"url": "https://www.dandwiki.com/wiki/Necromancer_(5e_Class)",
+				"version": "1.0.0",
+				"source": "homebrew",
+				"dateReleased": "2024-01-01",
+				"publisher": "Homebrew",
+				"dateAdded": 1744262457,
+				"dateLastModified": 1744262457
+			}
+		],
+		"dateAdded": 1744267883,
+		"dateLastModified": 1744267883
+	},
+	"class": [
+		{
+			"name": "Necromancer",
+			"source": "ULDNecromancerClass",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				{
+					"type": "armor",
+					"proficiencies": [
+						"light"
+					]
+				},
+				{
+					"type": "weapon",
+					"proficiencies": [
+						"simple"
+					]
+				},
+				{
+					"type": "tool",
+					"proficiencies": []
+				},
+				{
+					"type": "save",
+					"proficiencies": [
+						"con",
+						"cha"
+					]
+				},
+				{
+					"type": "skill",
+					"choose": {
+						"count": 2,
+						"from": [
+							"arcana",
+							"deception",
+							"history",
+							"intimidation",
+							"medicine",
+							"perception",
+							"religion"
+						]
+					}
+				}
+			],
+			"equipment": [
+				{
+					"options": [
+						{
+							"items": [
+								"sickle"
+							]
+						},
+						{
+							"items": [
+								"dagger",
+								"dagger"
+							]
+						}
+					]
+				},
+				{
+					"options": [
+						{
+							"items": [
+								"dungeoneer's pack"
+							]
+						},
+						{
+							"items": [
+								"explorer's pack"
+							]
+						}
+					]
+				},
+				{
+					"items": [
+						"arcane focus",
+						"studded leather armor"
+					]
+				}
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "full",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"preparedSpells": false,
+			"spellsKnownProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15,
+				15,
+				15
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Level",
+						"Proficiency Bonus",
+						"Cantrips Known",
+						"Spells Known",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th",
+						"6th",
+						"7th",
+						"8th",
+						"9th"
+					],
+					"rows": [
+						[
+							1,
+							"+2",
+							2,
+							2,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							"+2",
+							2,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							"+2",
+							2,
+							4,
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							"+2",
+							3,
+							5,
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							5,
+							"+3",
+							3,
+							6,
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							6,
+							"+3",
+							3,
+							7,
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							7,
+							"+3",
+							3,
+							8,
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							8,
+							"+3",
+							3,
+							9,
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							9,
+							"+4",
+							3,
+							10,
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							"+4",
+							4,
+							11,
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							11,
+							"+4",
+							4,
+							12,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							12,
+							"+4",
+							4,
+							12,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							13,
+							"+5",
+							4,
+							13,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							14,
+							"+5",
+							4,
+							13,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							15,
+							"+5",
+							4,
+							14,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							16,
+							"+5",
+							4,
+							14,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							17,
+							"+6",
+							4,
+							15,
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							18,
+							"+6",
+							4,
+							15,
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							19,
+							"+6",
+							4,
+							15,
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							20,
+							"+6",
+							4,
+							15,
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"features": [
+				{
+					"name": "Spellcasting",
+					"level": 1,
+					"entries": [
+						"You draw on the negative energy in the world to fuel your spells.",
+						{
+							"type": "entries",
+							"name": "Cantrips",
+							"entries": [
+								"At 1st level, you know 2 cantrips of your choice from the Necromancer Spell List. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Necromancer table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Necromancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+								"For example, if you know the 1st-level spell false life and have a 1st-level and a 2nd-level spell slot available, you can cast false life using either slot."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells Known of 1st Level and Higher",
+							"entries": [
+								"You know two 1st-level spells of your choice from the Necromancer Spell List.",
+								"The Spells Known column of the Necromancer table shows when you learn more necromancer spells of your choice. Each of these spells must be of a level for which you have spell slots.",
+								"When you gain a level in this class, you can choose one of the necromancer spells you know and replace it with another necromancer spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Charisma is your spellcasting ability for your necromancer spells.",
+								"- Spell save DC = 8 + your proficiency bonus + your Charisma modifier",
+								"- Spell attack modifier = your proficiency bonus + your Charisma modifier"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ritual Casting",
+							"entries": [
+								"You can cast a Necromancer spell as a ritual if it has the ritual tag and you know the spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use an arcane focus as a spellcasting focus for your necromancer spells."
+							]
+						}
+					]
+				},
+				{
+					"name": "Necrotic Suffusion",
+					"level": 1,
+					"entries": [
+						"As an action, target a creature within 15 ft.",
+						"- If undead under your control: it regains 1d8 + Charisma mod HP.",
+						"- Otherwise: creature makes CON save or takes 1d8 + Charisma mod necrotic damage.",
+						"Uses = Charisma modifier (min 1). Recharge on long rest.",
+						"Damage/heal increases to 2d8 at level 5, 3d8 at level 11, 4d8 at level 17."
+					]
+				},
+				{
+					"name": "Necromancer Occult",
+					"level": 2,
+					"entries": [
+						"At 2nd level, choose an Occult: Keeper, Reaper, Undertaker, or Witch Doctor.",
+						"Grants features at 2nd, 6th, 10th, and 14th levels."
+					]
+				},
+				{
+					"name": "Soul Harvest",
+					"level": 3,
+					"entries": [
+						"When you or your undead reduce a creature to 0 HP, use your reaction to gain temp HP = target's CON modifier + your Necromancer level (min 1)."
+					]
+				},
+				{
+					"name": "Ability Score Improvement",
+					"level": 4,
+					"entries": [
+						"At 4th level and again at 8th, 12th, 16th, and 19th level, increase one ability score by 2 or two scores by 1 (max 20)."
+					]
+				},
+				{
+					"name": "Spontaneous Unburial",
+					"level": 5,
+					"entries": [
+						"You learn <spell animate dead>, which doesn't count against spells known.",
+						"You can cast it as an action and don't need a corpse\u2014just be in a graveyard or battlefield.",
+						"It animates the nearest cadaver, which digs itself out if buried."
+					]
+				},
+				{
+					"name": "Animate Major Undead",
+					"level": 11,
+					"entries": [
+						"Cast <spell animate dead> on Huge or smaller corpse of humanoid, beast, or monstrosity (CR 5 or lower).",
+						"- Choose Skeletal or Zombified form (traits change).",
+						"- One Major Undead at a time. Reassert control with this feature.",
+						"- 1 use/long rest.",
+						"At 15th level: CR 8 or lower (giant, monstrosity, humanoid, beast).",
+						"At 18th level: CR 12 or lower (add aberration, dragon); control lasts until it drops to 0 HP or you use this again."
+					]
+				},
+				{
+					"name": "Macabre",
+					"level": 20,
+					"entries": [
+						"You gain immunity to: charmed, exhaustion, frightened, paralyzed, and poisoned.",
+						"You don't age naturally (magic aging still applies).",
+						"Advantage on Charisma checks to influence Undead.",
+						"Undead have disadvantage on saves against your Necromancer spells/features.",
+						"Mindless Undead are indifferent to you and companions unless harmed."
+					]
+				}
+			],
+			"subclasses": [
+				{
+					"name": "Keeper",
+					"shortName": "Keeper",
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Reaper",
+					"shortName": "Reaper",
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Witch Doctor",
+					"shortName": "Witch Doctor",
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Undertaker",
+					"shortName": "Undertaker",
+					"source": "ULDNecromancerClass"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "What is a Necromancer?",
+					"entries": [
+						"Necromancers study death, undeath, and the energies that lie between. Their dark art channels power through bones, blood, and spirit alike. While many fear them, they wield magic that manipulates life and death itself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Proficiencies",
+					"entries": [
+						"**Armor:** Light armor",
+						"**Weapons:** Simple weapons",
+						"**Tools:** None",
+						"**Saving Throws:** Constitution, Charisma",
+						"**Skills:** Choose two from Arcana, Deception, History, Intimidation, Medicine, Perception, and Religion"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equipment",
+					"entries": [
+						"You start with the following equipment, in addition to the equipment granted by your background:",
+						"- (a) a sickle or (b) two daggers",
+						"- (a) a dungeoneer's pack or (b) an explorer's pack",
+						"- An arcane focus",
+						"- Studded leather armor"
+					]
+				}
+			],
+			"subclassFeature": [
+				{
+					"classLevel": 2,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				},
+				{
+					"classLevel": 6,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				},
+				{
+					"classLevel": 10,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				},
+				{
+					"classLevel": 14,
+					"subclassFeature": [
+						"Occult Feature"
+					]
+				}
+			],
+			"savingThrow": [
+				"con",
+				"cha"
+			],
+			"table": [
+				[
+					1,
+					"+2",
+					2,
+					2,
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					2,
+					"+2",
+					2,
+					3,
+					3,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					3,
+					"+2",
+					2,
+					4,
+					4,
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					4,
+					"+2",
+					3,
+					5,
+					4,
+					3,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					5,
+					"+3",
+					3,
+					6,
+					4,
+					3,
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					6,
+					"+3",
+					3,
+					7,
+					4,
+					3,
+					3,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					7,
+					"+3",
+					3,
+					8,
+					4,
+					3,
+					3,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					8,
+					"+3",
+					3,
+					9,
+					4,
+					3,
+					3,
+					2,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					9,
+					"+4",
+					3,
+					10,
+					4,
+					3,
+					3,
+					3,
+					1,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					10,
+					"+4",
+					4,
+					11,
+					4,
+					3,
+					3,
+					3,
+					2,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					11,
+					"+4",
+					4,
+					12,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					0,
+					0,
+					0
+				],
+				[
+					12,
+					"+4",
+					4,
+					12,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					0,
+					0,
+					0
+				],
+				[
+					13,
+					"+5",
+					4,
+					13,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					1,
+					0,
+					0
+				],
+				[
+					14,
+					"+5",
+					4,
+					13,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					1,
+					0,
+					0
+				],
+				[
+					15,
+					"+5",
+					4,
+					14,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					1,
+					1,
+					0
+				],
+				[
+					16,
+					"+5",
+					4,
+					14,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					1,
+					1,
+					0
+				],
+				[
+					17,
+					"+6",
+					4,
+					15,
+					4,
+					3,
+					3,
+					3,
+					2,
+					1,
+					1,
+					1,
+					1
+				],
+				[
+					18,
+					"+6",
+					4,
+					15,
+					4,
+					3,
+					3,
+					3,
+					3,
+					1,
+					1,
+					1,
+					1
+				],
+				[
+					19,
+					"+6",
+					4,
+					15,
+					4,
+					3,
+					3,
+					3,
+					3,
+					2,
+					1,
+					1,
+					1
+				],
+				[
+					20,
+					"+6",
+					4,
+					15,
+					4,
+					3,
+					3,
+					3,
+					3,
+					2,
+					2,
+					1,
+					1
+				]
+			],
+			"startingProficiencies": {
+				"armor": [
+					"Light armor"
+				],
+				"weapons": [
+					"Simple weapons"
+				],
+				"tools": [],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"Arcana",
+								"Deception",
+								"History",
+								"Intimidation",
+								"Medicine",
+								"Perception",
+								"Religion"
+							],
+							"count": 2
+						}
+					}
+				],
+				"savingThrow": [
+					"Constitution",
+					"Charisma"
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					[
+						"(a) a sickle or (b) two daggers"
+					],
+					[
+						"(a) a dungeoneer's pack or (b) an explorer's pack"
+					],
+					[
+						"An arcane focus"
+					],
+					[
+						"Studded leather armor"
+					]
+				],
+				"goldAlternative": "3d4 × 10 gp"
+			},
+			"subclassTitle": "Occult",
+			"hasFluff": true,
+			"multiclassing": {},
+			"classFeatures": [
+				{
+					"name": "Spellcasting",
+					"level": 1
+				},
+				{
+					"name": "Necrotic Suffusion",
+					"level": 1
+				},
+				{
+					"name": "Necromancer Occult",
+					"level": 2
+				},
+				{
+					"name": "Soul Harvest",
+					"level": 3
+				},
+				{
+					"name": "Ability Score Improvement",
+					"level": 4
+				},
+				{
+					"name": "Spontaneous Unburial",
+					"level": 5
+				},
+				{
+					"name": "Animate Major Undead",
+					"level": 11
+				},
+				{
+					"name": "Macabre",
+					"level": 20
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Keeper",
+			"shortName": "Keeper",
+			"source": "ULDNecromancerClass",
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"features": [
+				{
+					"name": "Keeper Spells",
+					"level": 2,
+					"entries": [
+						"Starting at 2nd level, you always have the following spells prepared, and they don't count against your number of spells known:",
+						{
+							"type": "list",
+							"items": [
+								"2nd Level: <spell spare the dying>, <spell cure wounds>, <spell life sap|ULDNecromancerClass>",
+								"3rd Level: <spell lesser restoration>, <spell aid>",
+								"5th Level: <spell aura of vitality>, <spell beacon of hope>",
+								"7th Level: <spell aura of life>, <spell aura of purity>",
+								"9th Level: <spell greater restoration>, <spell mass cure wounds>"
+							]
+						}
+					]
+				},
+				{
+					"name": "Life on Demand",
+					"level": 2,
+					"entries": [
+						"As an action, you touch a willing creature. It expends one Hit Die, rolls it, and adds your Charisma modifier. It regains hit points equal to the total (minimum 1).",
+						"You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
+					]
+				},
+				{
+					"name": "Deliverer",
+					"level": 6,
+					"entries": [
+						"As a reaction when you or a creature within 30 feet is hit by a critical hit, you can turn it into a normal hit. Any effects triggered by a critical hit are canceled.",
+						"You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
+					]
+				},
+				{
+					"name": "Aura of Wellbeing",
+					"level": 10,
+					"entries": [
+						"When an undead starts its turn within 10 feet of you, you can grant it temporary HP equal to 1d6 + your Charisma modifier.",
+						"You can also grant temp HP this way to any creature within 10 feet that starts its turn with half or fewer hit points remaining."
+					]
+				},
+				{
+					"name": "Master of Mending",
+					"level": 14,
+					"entries": [
+						"Whenever you roll dice to restore HP with a spell or Necromancer feature, use the maximum value of each die instead."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Necromancers of this Occult study death in order to keep it at bay. Keepers understand how and why creatures die, and how to prevent it."
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Keeper",
+					"entries": [
+						"Necromancers of this Occult study death in order to keep it at bay. Keepers understand how and why creatures die, and how to prevent it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keeper Spells",
+					"entries": [
+						"Starting at 2nd level, you always have the following spells prepared, and they don't count against your number of spells known:",
+						{
+							"type": "list",
+							"items": [
+								"2nd Level: <spell spare the dying>, <spell cure wounds>, <spell life sap|ULDNecromancerClass>",
+								"3rd Level: <spell lesser restoration>, <spell aid>",
+								"5th Level: <spell aura of vitality>, <spell beacon of hope>",
+								"7th Level: <spell aura of life>, <spell aura of purity>",
+								"9th Level: <spell greater restoration>, <spell mass cure wounds>"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Life on Demand",
+					"entries": [
+						"As an action, you touch a willing creature. It expends one Hit Die, rolls it, and adds your Charisma modifier. It regains hit points equal to the total (minimum 1).",
+						"You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deliverer",
+					"entries": [
+						"As a reaction when you or a creature within 30 feet is hit by a critical hit, you can turn it into a normal hit. Any effects triggered by a critical hit are canceled.",
+						"You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aura of Wellbeing",
+					"entries": [
+						"When an undead starts its turn within 10 feet of you, you can grant it temporary HP equal to 1d6 + your Charisma modifier.",
+						"You can also grant temp HP this way to any creature within 10 feet that starts its turn with half or fewer hit points remaining."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master of Mending",
+					"entries": [
+						"Whenever you roll dice to restore HP with a spell or Necromancer feature, use the maximum value of each die instead."
+					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Life on Demand",
+					"level": 2
+				},
+				{
+					"classFeature": "Deliverer",
+					"level": 6
+				},
+				{
+					"classFeature": "Aura of Wellbeing",
+					"level": 10
+				},
+				{
+					"classFeature": "Master of Mending",
+					"level": 14
+				}
+			]
+		},
+		{
+			"name": "Reaper",
+			"shortName": "Reaper",
+			"source": "ULDNecromancerClass",
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"features": [
+				{
+					"name": "Inevitability",
+					"level": 2,
+					"entries": [
+						"Whenever you target a creature with a Necromancy cantrip and miss with the attack roll or the target succeeds on a saving throw, the target takes half damage but no other effects.",
+						"Additionally, when you cast a Necromancy spell of 1st level or higher, add your proficiency bonus to one damage roll of that spell."
+					]
+				},
+				{
+					"name": "Improved Soul Harvest",
+					"level": 6,
+					"entries": [
+						"When you cast a Necromancy spell while you have temporary hit points, you can reduce your temporary hit points by up to twice your Charisma modifier.",
+						"Increase one damage roll of that spell by the amount of temporary hit points lost."
+					]
+				},
+				{
+					"name": "Necrosis Spellcasting",
+					"level": 10,
+					"entries": [
+						"Whenever you deal damage to one or more creatures with a Necromancy spell, choose one of the targets.",
+						"That creature takes an additional 1d8 necrotic damage, or 2d8 if the target is undead."
+					]
+				},
+				{
+					"name": "Grim Aura",
+					"level": 14,
+					"entries": [
+						"You emit an aura of death in a 10-foot radius while not incapacitated. Non-magical plants in this area wither.",
+						"Creatures of your choice in the aura can't regain hit points or become stable.",
+						"Once per turn, you can use a bonus action to target a creature within 30 feet. It must make a Constitution saving throw or become wreathed in miasma.",
+						"Until the end of the turn, the next time you damage that creature with a Necromancy spell, it is vulnerable to that damage.",
+						"You can use this once per long rest or expend a 4th-level spell slot or higher to use it again."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Reapers channel death like an artist commands their tools. They see beauty in the moment of demise and wield necrotic magic with precision and power."
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reaper",
+					"entries": [
+						"Reapers channel death like an artist commands their tools. They see beauty in the moment of demise and wield necrotic magic with precision and power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inevitability",
+					"entries": [
+						"Whenever you target a creature with a Necromancy cantrip and miss with the attack roll or the target succeeds on a saving throw, the target takes half damage but no other effects.",
+						"Additionally, when you cast a Necromancy spell of 1st level or higher, add your proficiency bonus to one damage roll of that spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Soul Harvest",
+					"entries": [
+						"When you cast a Necromancy spell while you have temporary hit points, you can reduce your temporary hit points by up to twice your Charisma modifier.",
+						"Increase one damage roll of that spell by the amount of temporary hit points lost."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrosis Spellcasting",
+					"entries": [
+						"Whenever you deal damage to one or more creatures with a Necromancy spell, choose one of the targets.",
+						"That creature takes an additional 1d8 necrotic damage, or 2d8 if the target is undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grim Aura",
+					"entries": [
+						"You emit an aura of death in a 10-foot radius while not incapacitated. Non-magical plants in this area wither.",
+						"Creatures of your choice in the aura can't regain hit points or become stable.",
+						"Once per turn, you can use a bonus action to target a creature within 30 feet. It must make a Constitution saving throw or become wreathed in miasma.",
+						"Until the end of the turn, the next time you damage that creature with a Necromancy spell, it is vulnerable to that damage.",
+						"You can use this once per long rest or expend a 4th-level spell slot or higher to use it again."
+					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Inevitability",
+					"level": 2
+				},
+				{
+					"classFeature": "Improved Soul Harvest",
+					"level": 6
+				},
+				{
+					"classFeature": "Necrosis Spellcasting",
+					"level": 10
+				},
+				{
+					"classFeature": "Grim Aura",
+					"level": 14
+				}
+			]
+		},
+		{
+			"name": "Witch Doctor",
+			"shortName": "Witch Doctor",
+			"source": "ULDNecromancerClass",
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"features": [
+				{
+					"name": "Spirit Well",
+					"level": 2,
+					"entries": [
+						"As an action, you can touch a corpse to create a Spirit Well with a 10 ft radius aura. The well can be moved by moving the corpse.",
+						"You choose the type of Spirit Well upon creation. Spirit Wells turn to ash after 1 minute or when destroyed (AC 8, 15 HP, immune to psychic and poison).",
+						"You can use this feature twice. Regain 1 use on a short rest, all on a long rest.",
+						"Wells available:",
+						{
+							"type": "list",
+							"items": [
+								"Well of Blindness: Forces CON save or blinded until end of turn.",
+								"Well of Hate: On damage, forces CON save or takes extra necrotic damage (1d10\u20134d10 scaling).",
+								"Well of Restrict: DEX save or treat aura as difficult terrain.",
+								"Well of Succor: Grants Half Cover.",
+								"Well of Terror: WIS save or frightened of the Well.",
+								"Well of Darkness (lvl 6): Area acts as <spell darkness>.",
+								"Well of Silence (lvl 6): Area acts as <spell silence>.",
+								"Well of Binding (lvl 10): CHA save or unable to leave aura.",
+								"Well of Fatigue (lvl 10): CON save or gain 1 level of exhaustion until outside the aura.",
+								"Well of Blood (lvl 14): End of turn, gain temp HP or take necrotic damage (1d6 + CHA).",
+								"Well of Fortune (lvl 14): Advantage on saves vs magic.",
+								"Well of Misfortune (lvl 14): Disadvantage on saves vs magic."
+							]
+						},
+						"Spirit Well saves use your Necromancer spell save DC. You or your Undead automatically succeed on these saves if affected."
+					]
+				},
+				{
+					"name": "Bloodbag Army",
+					"level": 6,
+					"entries": [
+						"As an action, choose one Undead you control and one willing creature within 30 ft of it.",
+						"The Undead drops to 0 HP. The willing creature regains the same amount of HP lost by the Undead.",
+						"Until your next turn, that creature has advantage on its next attack, ability check, or saving throw."
+					]
+				},
+				{
+					"name": "Walking Wells",
+					"level": 10,
+					"entries": [
+						"You can now turn your Undead into Spirit Wells. Touch one to apply a Spirit Well aura to it.",
+						"It remains animate and emits the effect for up to 1 minute or until reduced to 0 HP.",
+						"Your maximum number of Spirit Wells is now equal to your proficiency bonus."
+					]
+				},
+				{
+					"name": "Necrotic Pulse",
+					"level": 14,
+					"entries": [
+						"As a bonus action, choose one active Spirit Well within 120 ft. All creatures within 30 ft must make a CON save.",
+						"They take 6d6 necrotic damage on a failed save, half on a success. The Spirit Well is destroyed afterward.",
+						"You may choose to increase the aura of a Spirit Well you create to 30 feet."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Witch Doctors practice ancient necromantic traditions handed down over generations. Their magic is personal, spiritual, and feared\u2014but sometimes, it is the last hope."
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Witch Doctor",
+					"entries": [
+						"Witch Doctors practice ancient necromantic traditions handed down over generations. Their magic is personal, spiritual, and feared\u2014but sometimes, it is the last hope."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Well",
+					"entries": [
+						"As an action, you can touch a corpse to create a Spirit Well with a 10 ft radius aura. The well can be moved by moving the corpse.",
+						"You choose the type of Spirit Well upon creation. Spirit Wells turn to ash after 1 minute or when destroyed (AC 8, 15 HP, immune to psychic and poison).",
+						"You can use this feature twice. Regain 1 use on a short rest, all on a long rest.",
+						"Wells available:",
+						{
+							"type": "list",
+							"items": [
+								"Well of Blindness: Forces CON save or blinded until end of turn.",
+								"Well of Hate: On damage, forces CON save or takes extra necrotic damage (1d10\u20134d10 scaling).",
+								"Well of Restrict: DEX save or treat aura as difficult terrain.",
+								"Well of Succor: Grants Half Cover.",
+								"Well of Terror: WIS save or frightened of the Well.",
+								"Well of Darkness (lvl 6): Area acts as <spell darkness>.",
+								"Well of Silence (lvl 6): Area acts as <spell silence>.",
+								"Well of Binding (lvl 10): CHA save or unable to leave aura.",
+								"Well of Fatigue (lvl 10): CON save or gain 1 level of exhaustion until outside the aura.",
+								"Well of Blood (lvl 14): End of turn, gain temp HP or take necrotic damage (1d6 + CHA).",
+								"Well of Fortune (lvl 14): Advantage on saves vs magic.",
+								"Well of Misfortune (lvl 14): Disadvantage on saves vs magic."
+							]
+						},
+						"Spirit Well saves use your Necromancer spell save DC. You or your Undead automatically succeed on these saves if affected."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodbag Army",
+					"entries": [
+						"As an action, choose one Undead you control and one willing creature within 30 ft of it.",
+						"The Undead drops to 0 HP. The willing creature regains the same amount of HP lost by the Undead.",
+						"Until your next turn, that creature has advantage on its next attack, ability check, or saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Walking Wells",
+					"entries": [
+						"You can now turn your Undead into Spirit Wells. Touch one to apply a Spirit Well aura to it.",
+						"It remains animate and emits the effect for up to 1 minute or until reduced to 0 HP.",
+						"Your maximum number of Spirit Wells is now equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Pulse",
+					"entries": [
+						"As a bonus action, choose one active Spirit Well within 120 ft. All creatures within 30 ft must make a CON save.",
+						"They take 6d6 necrotic damage on a failed save, half on a success. The Spirit Well is destroyed afterward.",
+						"You may choose to increase the aura of a Spirit Well you create to 30 feet."
+					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Spirit Well",
+					"level": 2
+				},
+				{
+					"classFeature": "Bloodbag Army",
+					"level": 6
+				},
+				{
+					"classFeature": "Walking Wells",
+					"level": 10
+				},
+				{
+					"classFeature": "Necrotic Pulse",
+					"level": 14
+				}
+			]
+		},
+		{
+			"name": "Undertaker",
+			"shortName": "Undertaker",
+			"source": "ULDNecromancerClass",
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"features": [
+				{
+					"name": "Unholy Resistance",
+					"level": 2,
+					"entries": [
+						"You gain resistance to necrotic damage.",
+						"You become immune to spells and effects that reduce your hit point maximum or ability scores."
+					]
+				},
+				{
+					"name": "Improved Animation",
+					"level": 6,
+					"entries": [
+						"When you cast <spell animate dead>, you can target one additional corpse or pile of bones to create an extra skeleton or zombie.",
+						"This does not apply when using Animate Major Undead.",
+						"Whenever you create an Undead with a Necromancy spell, you can grant it the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"HP maximum increased by your Charisma modifier.",
+								"Uses your spell attack modifier for its attack rolls.",
+								"Gains resistance to necrotic damage.",
+								"Is immune to effects that reduce HP maximum or ability scores."
+							]
+						}
+					]
+				},
+				{
+					"name": "Aura of Resolve",
+					"level": 10,
+					"entries": [
+						"Undead under your control within 30 ft gain the following:",
+						{
+							"type": "list",
+							"items": [
+								"Immunity to being Turned or Frightened.",
+								"Their attacks count as magical for overcoming resistances/immunities.",
+								"They gain a bonus to saving throws equal to your Charisma modifier."
+							]
+						}
+					]
+				},
+				{
+					"name": "Lord of the Undead",
+					"level": 14,
+					"entries": [
+						"When casting <spell animate dead>, you can raise a Ghoul instead of a Zombie, or a Toxotai instead of a Skeleton."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Undertakers are necromancers who focus on raising and improving Undead. They wield larger undead armies than most, and specialize in enhancing their durability and strength."
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Undertaker",
+					"entries": [
+						"Undertakers are necromancers who focus on raising and improving Undead. They wield larger undead armies than most, and specialize in enhancing their durability and strength."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unholy Resistance",
+					"entries": [
+						"You gain resistance to necrotic damage.",
+						"You become immune to spells and effects that reduce your hit point maximum or ability scores."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Animation",
+					"entries": [
+						"When you cast <spell animate dead>, you can target one additional corpse or pile of bones to create an extra skeleton or zombie.",
+						"This does not apply when using Animate Major Undead.",
+						"Whenever you create an Undead with a Necromancy spell, you can grant it the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"HP maximum increased by your Charisma modifier.",
+								"Uses your spell attack modifier for its attack rolls.",
+								"Gains resistance to necrotic damage.",
+								"Is immune to effects that reduce HP maximum or ability scores."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aura of Resolve",
+					"entries": [
+						"Undead under your control within 30 ft gain the following:",
+						{
+							"type": "list",
+							"items": [
+								"Immunity to being Turned or Frightened.",
+								"Their attacks count as magical for overcoming resistances/immunities.",
+								"They gain a bonus to saving throws equal to your Charisma modifier."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lord of the Undead",
+					"entries": [
+						"When casting <spell animate dead>, you can raise a Ghoul instead of a Zombie, or a Toxotai instead of a Skeleton."
+					]
+				}
+			],
+			"subclassFeatures": [
+				{
+					"classFeature": "Unholy Resistance",
+					"level": 2
+				},
+				{
+					"classFeature": "Improved Animation",
+					"level": 6
+				},
+				{
+					"classFeature": "Aura of Resolve",
+					"level": 10
+				},
+				{
+					"classFeature": "Lord of the Undead",
+					"level": 14
+				}
+			]
+		}
+	]
 }
