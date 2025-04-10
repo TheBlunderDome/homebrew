@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744263803,
-		"dateLastModified": 1744263803
+		"dateAdded": 1744264670,
+		"dateLastModified": 1744264670
 	},
 	"subclass": [
 		{
@@ -72,7 +72,51 @@
 				"entries": [
 					"Reapers channel death like an artist commands their tools. They see beauty in the moment of demise and wield necrotic magic with precision and power."
 				]
-			}
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reaper",
+					"entries": [
+						"Reapers channel death like an artist commands their tools. They see beauty in the moment of demise and wield necrotic magic with precision and power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inevitability",
+					"entries": [
+						"Whenever you target a creature with a Necromancy cantrip and miss with the attack roll or the target succeeds on a saving throw, the target takes half damage but no other effects.",
+						"Additionally, when you cast a Necromancy spell of 1st level or higher, add your proficiency bonus to one damage roll of that spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Soul Harvest",
+					"entries": [
+						"When you cast a Necromancy spell while you have temporary hit points, you can reduce your temporary hit points by up to twice your Charisma modifier.",
+						"Increase one damage roll of that spell by the amount of temporary hit points lost."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrosis Spellcasting",
+					"entries": [
+						"Whenever you deal damage to one or more creatures with a Necromancy spell, choose one of the targets.",
+						"That creature takes an additional 1d8 necrotic damage, or 2d8 if the target is undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grim Aura",
+					"entries": [
+						"You emit an aura of death in a 10-foot radius while not incapacitated. Non-magical plants in this area wither.",
+						"Creatures of your choice in the aura can't regain hit points or become stable.",
+						"Once per turn, you can use a bonus action to target a creature within 30 feet. It must make a Constitution saving throw or become wreathed in miasma.",
+						"Until the end of the turn, the next time you damage that creature with a Necromancy spell, it is vulnerable to that damage.",
+						"You can use this once per long rest or expend a 4th-level spell slot or higher to use it again."
+					]
+				}
+			]
 		}
 	]
 }

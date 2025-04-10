@@ -20,8 +20,8 @@
 				"dateLastModified": 1744262457
 			}
 		],
-		"dateAdded": 1744263803,
-		"dateLastModified": 1744263803
+		"dateAdded": 1744264670,
+		"dateLastModified": 1744264670
 	},
 	"class": [
 		{
@@ -531,6 +531,37 @@
 					"name": "Undertaker",
 					"shortName": "Undertaker",
 					"source": "ULDNecromancerClass"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "What is a Necromancer?",
+					"entries": [
+						"Necromancers study death, undeath, and the energies that lie between. Their dark art channels power through bones, blood, and spirit alike. While many fear them, they wield magic that manipulates life and death itself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Proficiencies",
+					"entries": [
+						"**Armor:** Light armor",
+						"**Weapons:** Simple weapons",
+						"**Tools:** None",
+						"**Saving Throws:** Constitution, Charisma",
+						"**Skills:** Choose two from Arcana, Deception, History, Intimidation, Medicine, Perception, and Religion"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equipment",
+					"entries": [
+						"You start with the following equipment, in addition to the equipment granted by your background:",
+						"- (a) a sickle or (b) two daggers",
+						"- (a) a dungeoneer's pack or (b) an explorer's pack",
+						"- An arcane focus",
+						"- Studded leather armor"
+					]
 				}
 			]
 		}

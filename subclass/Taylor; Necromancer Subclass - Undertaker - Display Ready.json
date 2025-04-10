@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744263803,
-		"dateLastModified": 1744263803
+		"dateAdded": 1744264670,
+		"dateLastModified": 1744264670
 	},
 	"subclass": [
 		{
@@ -85,7 +85,64 @@
 				"entries": [
 					"Undertakers are necromancers who focus on raising and improving Undead. They wield larger undead armies than most, and specialize in enhancing their durability and strength."
 				]
-			}
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Undertaker",
+					"entries": [
+						"Undertakers are necromancers who focus on raising and improving Undead. They wield larger undead armies than most, and specialize in enhancing their durability and strength."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unholy Resistance",
+					"entries": [
+						"You gain resistance to necrotic damage.",
+						"You become immune to spells and effects that reduce your hit point maximum or ability scores."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Animation",
+					"entries": [
+						"When you cast <spell animate dead>, you can target one additional corpse or pile of bones to create an extra skeleton or zombie.",
+						"This does not apply when using Animate Major Undead.",
+						"Whenever you create an Undead with a Necromancy spell, you can grant it the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"HP maximum increased by your Charisma modifier.",
+								"Uses your spell attack modifier for its attack rolls.",
+								"Gains resistance to necrotic damage.",
+								"Is immune to effects that reduce HP maximum or ability scores."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aura of Resolve",
+					"entries": [
+						"Undead under your control within 30 ft gain the following:",
+						{
+							"type": "list",
+							"items": [
+								"Immunity to being Turned or Frightened.",
+								"Their attacks count as magical for overcoming resistances/immunities.",
+								"They gain a bonus to saving throws equal to your Charisma modifier."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lord of the Undead",
+					"entries": [
+						"When casting <spell animate dead>, you can raise a Ghoul instead of a Zombie, or a Toxotai instead of a Skeleton."
+					]
+				}
+			]
 		}
 	]
 }

@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744263803,
-		"dateLastModified": 1744263803
+		"dateAdded": 1744264670,
+		"dateLastModified": 1744264670
 	},
 	"subclass": [
 		{
@@ -92,7 +92,71 @@
 				"entries": [
 					"Witch Doctors practice ancient necromantic traditions handed down over generations. Their magic is personal, spiritual, and feared\u2014but sometimes, it is the last hope."
 				]
-			}
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Witch Doctor",
+					"entries": [
+						"Witch Doctors practice ancient necromantic traditions handed down over generations. Their magic is personal, spiritual, and feared\u2014but sometimes, it is the last hope."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Well",
+					"entries": [
+						"As an action, you can touch a corpse to create a Spirit Well with a 10 ft radius aura. The well can be moved by moving the corpse.",
+						"You choose the type of Spirit Well upon creation. Spirit Wells turn to ash after 1 minute or when destroyed (AC 8, 15 HP, immune to psychic and poison).",
+						"You can use this feature twice. Regain 1 use on a short rest, all on a long rest.",
+						"Wells available:",
+						{
+							"type": "list",
+							"items": [
+								"Well of Blindness: Forces CON save or blinded until end of turn.",
+								"Well of Hate: On damage, forces CON save or takes extra necrotic damage (1d10\u20134d10 scaling).",
+								"Well of Restrict: DEX save or treat aura as difficult terrain.",
+								"Well of Succor: Grants Half Cover.",
+								"Well of Terror: WIS save or frightened of the Well.",
+								"Well of Darkness (lvl 6): Area acts as <spell darkness>.",
+								"Well of Silence (lvl 6): Area acts as <spell silence>.",
+								"Well of Binding (lvl 10): CHA save or unable to leave aura.",
+								"Well of Fatigue (lvl 10): CON save or gain 1 level of exhaustion until outside the aura.",
+								"Well of Blood (lvl 14): End of turn, gain temp HP or take necrotic damage (1d6 + CHA).",
+								"Well of Fortune (lvl 14): Advantage on saves vs magic.",
+								"Well of Misfortune (lvl 14): Disadvantage on saves vs magic."
+							]
+						},
+						"Spirit Well saves use your Necromancer spell save DC. You or your Undead automatically succeed on these saves if affected."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodbag Army",
+					"entries": [
+						"As an action, choose one Undead you control and one willing creature within 30 ft of it.",
+						"The Undead drops to 0 HP. The willing creature regains the same amount of HP lost by the Undead.",
+						"Until your next turn, that creature has advantage on its next attack, ability check, or saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Walking Wells",
+					"entries": [
+						"You can now turn your Undead into Spirit Wells. Touch one to apply a Spirit Well aura to it.",
+						"It remains animate and emits the effect for up to 1 minute or until reduced to 0 HP.",
+						"Your maximum number of Spirit Wells is now equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Pulse",
+					"entries": [
+						"As a bonus action, choose one active Spirit Well within 120 ft. All creatures within 30 ft must make a CON save.",
+						"They take 6d6 necrotic damage on a failed save, half on a success. The Spirit Well is destroyed afterward.",
+						"You may choose to increase the aura of a Spirit Well you create to 30 feet."
+					]
+				}
+			]
 		}
 	]
 }

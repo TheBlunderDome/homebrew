@@ -21,8 +21,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744263803,
-		"dateLastModified": 1744263803
+		"dateAdded": 1744264670,
+		"dateLastModified": 1744264670
 	},
 	"subclass": [
 		{
@@ -85,7 +85,64 @@
 				"entries": [
 					"Necromancers of this Occult study death in order to keep it at bay. Keepers understand how and why creatures die, and how to prevent it."
 				]
-			}
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Keeper",
+					"entries": [
+						"Necromancers of this Occult study death in order to keep it at bay. Keepers understand how and why creatures die, and how to prevent it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keeper Spells",
+					"entries": [
+						"Starting at 2nd level, you always have the following spells prepared, and they don't count against your number of spells known:",
+						{
+							"type": "list",
+							"items": [
+								"2nd Level: <spell spare the dying>, <spell cure wounds>, <spell life sap|ULDNecromancerClass>",
+								"3rd Level: <spell lesser restoration>, <spell aid>",
+								"5th Level: <spell aura of vitality>, <spell beacon of hope>",
+								"7th Level: <spell aura of life>, <spell aura of purity>",
+								"9th Level: <spell greater restoration>, <spell mass cure wounds>"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Life on Demand",
+					"entries": [
+						"As an action, you touch a willing creature. It expends one Hit Die, rolls it, and adds your Charisma modifier. It regains hit points equal to the total (minimum 1).",
+						"You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deliverer",
+					"entries": [
+						"As a reaction when you or a creature within 30 feet is hit by a critical hit, you can turn it into a normal hit. Any effects triggered by a critical hit are canceled.",
+						"You can use this a number of times equal to your Charisma modifier (min 1). You regain all uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aura of Wellbeing",
+					"entries": [
+						"When an undead starts its turn within 10 feet of you, you can grant it temporary HP equal to 1d6 + your Charisma modifier.",
+						"You can also grant temp HP this way to any creature within 10 feet that starts its turn with half or fewer hit points remaining."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master of Mending",
+					"entries": [
+						"Whenever you roll dice to restore HP with a spell or Necromancer feature, use the maximum value of each die instead."
+					]
+				}
+			]
 		}
 	]
 }
