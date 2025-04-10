@@ -20,8 +20,8 @@
 				"dateLastModified": 1744262457
 			}
 		],
-		"dateAdded": 1744264670,
-		"dateLastModified": 1744264670
+		"dateAdded": 1744265008,
+		"dateLastModified": 1744265008
 	},
 	"class": [
 		{
@@ -31,31 +31,46 @@
 				"number": 1,
 				"faces": 6
 			},
-			"proficiency": {
-				"armor": [
-					"light"
-				],
-				"weapons": [
-					"simple"
-				],
-				"tools": [],
-				"savingThrows": [
-					"con",
-					"cha"
-				],
-				"skills": {
-					"choose": 2,
-					"from": [
-						"arcana",
-						"deception",
-						"history",
-						"intimidation",
-						"medicine",
-						"perception",
-						"religion"
+			"proficiency": [
+				{
+					"type": "armor",
+					"proficiencies": [
+						"light"
 					]
+				},
+				{
+					"type": "weapon",
+					"proficiencies": [
+						"simple"
+					]
+				},
+				{
+					"type": "tool",
+					"proficiencies": []
+				},
+				{
+					"type": "save",
+					"proficiencies": [
+						"con",
+						"cha"
+					]
+				},
+				{
+					"type": "skill",
+					"choose": {
+						"count": 2,
+						"from": [
+							"arcana",
+							"deception",
+							"history",
+							"intimidation",
+							"medicine",
+							"perception",
+							"religion"
+						]
+					}
 				}
-			},
+			],
 			"equipment": [
 				{
 					"options": [
