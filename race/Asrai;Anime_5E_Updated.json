@@ -1,0 +1,56 @@
+{
+	"race": [
+		{
+			"name": "Asrai",
+			"source": "ULD",
+			"size": ["Medium"],
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"ability": [
+				{ "dex": 1 },
+				{ "int": 1 },
+				{ "cha": 2 }
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"name": "Flight",
+							"entries": [
+								"You have a flying speed of 30 feet. You do not require much space to maneuver due to your small and agile wings."
+							]
+						},
+						{
+							"name": "Sixth Sense",
+							"entries": [
+								"When near danger, your wings vibrate faintly, warning you of harm. This functions as a passive sense for environmental threats."
+							]
+						},
+						{
+							"name": "Zen Direction",
+							"entries": [
+								"Your movement is guided by nature. When left to instinct, you may be drawn toward beneficial or relevant locations, even if unintentionally."
+							]
+						},
+						{
+							"name": "Subrace: Blessed Asrai",
+							"entries": [
+								"You have a deeper link to nature. You gain Rank 1 in Dynamic Power (Nature), allowing basic control over natural surroundings."
+							]
+						}
+					]
+				}
+			],
+			"traitTags": ["Flight", "Sixth Sense"],
+			"languageProficiencies": {
+				"proficient": ["Common", "Elvish", "Sylvan"]
+			},
+			"hasFluff": true,
+			"hasFluffImages": false,
+			"dateAdded": 1744126442
+		}
+	]
+}
