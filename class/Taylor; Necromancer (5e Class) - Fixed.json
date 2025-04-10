@@ -1,0 +1,538 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ULDNecromancerClass",
+				"abbreviation": "Necromancer",
+				"full": "Necromancer (5e Class)",
+				"authors": [
+					"Taylor"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"url": "https://www.dandwiki.com/wiki/Necromancer_(5e_Class)",
+				"version": "1.0.0",
+				"source": "homebrew",
+				"dateReleased": "2024-01-01",
+				"publisher": "Homebrew",
+				"dateAdded": 1744262457,
+				"dateLastModified": 1744262457
+			}
+		],
+		"dateAdded": 1744263803,
+		"dateLastModified": 1744263803
+	},
+	"class": [
+		{
+			"name": "Necromancer",
+			"source": "ULDNecromancerClass",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [],
+				"savingThrows": [
+					"con",
+					"cha"
+				],
+				"skills": {
+					"choose": 2,
+					"from": [
+						"arcana",
+						"deception",
+						"history",
+						"intimidation",
+						"medicine",
+						"perception",
+						"religion"
+					]
+				}
+			},
+			"equipment": [
+				{
+					"options": [
+						{
+							"items": [
+								"sickle"
+							]
+						},
+						{
+							"items": [
+								"dagger",
+								"dagger"
+							]
+						}
+					]
+				},
+				{
+					"options": [
+						{
+							"items": [
+								"dungeoneer's pack"
+							]
+						},
+						{
+							"items": [
+								"explorer's pack"
+							]
+						}
+					]
+				},
+				{
+					"items": [
+						"arcane focus",
+						"studded leather armor"
+					]
+				}
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "full",
+			"cantripProgression": "full",
+			"preparedSpells": false,
+			"spellsKnownProgression": "arcane",
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Cantrips Known",
+						"Spells Known",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th",
+						"6th",
+						"7th",
+						"8th",
+						"9th"
+					],
+					"rows": [
+						[
+							2,
+							2,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							5,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							6,
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							7,
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							8,
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							9,
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							10,
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							11,
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							12,
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							12,
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							13,
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							13,
+							4,
+							3,
+							3,
+							1,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							14,
+							4,
+							3,
+							3,
+							1,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							14,
+							4,
+							3,
+							3,
+							1,
+							1,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							15,
+							4,
+							3,
+							3,
+							1,
+							1,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							15,
+							4,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							15,
+							4,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							15,
+							4,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							15,
+							4,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"features": [
+				{
+					"name": "Spellcasting",
+					"level": 1,
+					"entries": [
+						"You draw on the negative energy in the world to fuel your spells.",
+						{
+							"type": "entries",
+							"name": "Cantrips",
+							"entries": [
+								"At 1st level, you know 2 cantrips of your choice from the Necromancer Spell List. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Necromancer table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Necromancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+								"For example, if you know the 1st-level spell false life and have a 1st-level and a 2nd-level spell slot available, you can cast false life using either slot."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells Known of 1st Level and Higher",
+							"entries": [
+								"You know two 1st-level spells of your choice from the Necromancer Spell List.",
+								"The Spells Known column of the Necromancer table shows when you learn more necromancer spells of your choice. Each of these spells must be of a level for which you have spell slots.",
+								"When you gain a level in this class, you can choose one of the necromancer spells you know and replace it with another necromancer spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Charisma is your spellcasting ability for your necromancer spells.",
+								"- Spell save DC = 8 + your proficiency bonus + your Charisma modifier",
+								"- Spell attack modifier = your proficiency bonus + your Charisma modifier"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ritual Casting",
+							"entries": [
+								"You can cast a Necromancer spell as a ritual if it has the ritual tag and you know the spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use an arcane focus as a spellcasting focus for your necromancer spells."
+							]
+						}
+					]
+				},
+				{
+					"name": "Necrotic Suffusion",
+					"level": 1,
+					"entries": [
+						"As an action, target a creature within 15 ft.",
+						"- If undead under your control: it regains 1d8 + Charisma mod HP.",
+						"- Otherwise: creature makes CON save or takes 1d8 + Charisma mod necrotic damage.",
+						"Uses = Charisma modifier (min 1). Recharge on long rest.",
+						"Damage/heal increases to 2d8 at level 5, 3d8 at level 11, 4d8 at level 17."
+					]
+				},
+				{
+					"name": "Necromancer Occult",
+					"level": 2,
+					"entries": [
+						"At 2nd level, choose an Occult: Keeper, Reaper, Undertaker, or Witch Doctor.",
+						"Grants features at 2nd, 6th, 10th, and 14th levels."
+					]
+				},
+				{
+					"name": "Soul Harvest",
+					"level": 3,
+					"entries": [
+						"When you or your undead reduce a creature to 0 HP, use your reaction to gain temp HP = target's CON modifier + your Necromancer level (min 1)."
+					]
+				},
+				{
+					"name": "Ability Score Improvement",
+					"level": 4,
+					"entries": [
+						"At 4th level and again at 8th, 12th, 16th, and 19th level, increase one ability score by 2 or two scores by 1 (max 20)."
+					]
+				},
+				{
+					"name": "Spontaneous Unburial",
+					"level": 5,
+					"entries": [
+						"You learn <spell animate dead>, which doesn't count against spells known.",
+						"You can cast it as an action and don't need a corpse\u2014just be in a graveyard or battlefield.",
+						"It animates the nearest cadaver, which digs itself out if buried."
+					]
+				},
+				{
+					"name": "Animate Major Undead",
+					"level": 11,
+					"entries": [
+						"Cast <spell animate dead> on Huge or smaller corpse of humanoid, beast, or monstrosity (CR 5 or lower).",
+						"- Choose Skeletal or Zombified form (traits change).",
+						"- One Major Undead at a time. Reassert control with this feature.",
+						"- 1 use/long rest.",
+						"At 15th level: CR 8 or lower (giant, monstrosity, humanoid, beast).",
+						"At 18th level: CR 12 or lower (add aberration, dragon); control lasts until it drops to 0 HP or you use this again."
+					]
+				},
+				{
+					"name": "Macabre",
+					"level": 20,
+					"entries": [
+						"You gain immunity to: charmed, exhaustion, frightened, paralyzed, and poisoned.",
+						"You don't age naturally (magic aging still applies).",
+						"Advantage on Charisma checks to influence Undead.",
+						"Undead have disadvantage on saves against your Necromancer spells/features.",
+						"Mindless Undead are indifferent to you and companions unless harmed."
+					]
+				}
+			],
+			"subclasses": [
+				{
+					"name": "Keeper",
+					"shortName": "Keeper",
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Reaper",
+					"shortName": "Reaper",
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Witch Doctor",
+					"shortName": "Witch Doctor",
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Undertaker",
+					"shortName": "Undertaker",
+					"source": "ULDNecromancerClass"
+				}
+			]
+		}
+	]
+}

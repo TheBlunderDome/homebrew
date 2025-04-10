@@ -1,0 +1,88 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ULDLifeSapSpell",
+				"abbreviation": "Necromancer",
+				"full": "Necromancer (5e Class)",
+				"authors": [
+					"Taylor"
+				],
+				"convertedBy": [
+					"Taylor"
+				],
+				"url": "https://www.dandwiki.com/wiki/Life_Sap_(5e_Spell)",
+				"version": "1.0.0",
+				"source": "homebrew",
+				"dateReleased": "2024-01-01",
+				"publisher": "Homebrew"
+			}
+		],
+		"dateAdded": 1744262457,
+		"dateLastModified": 1744262457,
+		"edition": "classic"
+	},
+	"spell": [
+		{
+			"name": "Life Sap",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"components": {
+				"s": true,
+				"m": "a drop of blood"
+			},
+			"entries": [
+				"Choose a creature that you can see within range. That creature must succeed on a Constitution saving throw or take necrotic damage equal to {@dice 1d4} + your spellcasting ability modifier.",
+				"You can then choose another creature in range. That creature gains a number of temporary hit points equal to the damage dealt to the first creature.",
+				"This spell has no effect on undead or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the necrotic damage increases by {@dice 1d4} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "ULDLifeSapSpell",
+			"page": 0
+		}
+	]
+}
