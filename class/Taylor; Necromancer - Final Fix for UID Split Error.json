@@ -17,8 +17,8 @@
 			}
 		],
 		"edition": "classic",
-		"dateAdded": 1744269900,
-		"dateLastModified": 1744269900
+		"dateAdded": 1744270420,
+		"dateLastModified": 1744270420
 	},
 	"class": [
 		{
@@ -819,36 +819,84 @@
 			"multiclassing": {},
 			"classFeatures": [
 				{
-					"name": "Spellcasting",
-					"level": 1
+					"name": "Life on Demand",
+					"level": 2,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Necrotic Suffusion",
-					"level": 1
+					"name": "Inevitability",
+					"level": 2,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Necromancer Occult",
-					"level": 2
+					"name": "Spirit Well",
+					"level": 2,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Soul Harvest",
-					"level": 3
+					"name": "Unholy Resistance",
+					"level": 2,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Ability Score Improvement",
-					"level": 4
+					"name": "Deliverer",
+					"level": 6,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Spontaneous Unburial",
-					"level": 5
+					"name": "Improved Soul Harvest",
+					"level": 6,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Animate Major Undead",
-					"level": 11
+					"name": "Bloodbag Army",
+					"level": 6,
+					"source": "ULDNecromancerClass"
 				},
 				{
-					"name": "Macabre",
-					"level": 20
+					"name": "Improved Animation",
+					"level": 6,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Aura of Wellbeing",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Necrosis Spellcasting",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Walking Wells",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Aura of Resolve",
+					"level": 10,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Master of Mending",
+					"level": 14,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Grim Aura",
+					"level": 14,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Necrotic Pulse",
+					"level": 14,
+					"source": "ULDNecromancerClass"
+				},
+				{
+					"name": "Lord of the Undead",
+					"level": 14,
+					"source": "ULDNecromancerClass"
 				}
 			]
 		}
