@@ -1,0 +1,492 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ULDNecromancerClass",
+				"abbreviation": "Necromancer",
+				"full": "Necromancer Homebrew Class",
+				"authors": [
+					"Unknown"
+				],
+				"convertedBy": [
+					"ChatGPT"
+				],
+				"url": "https://www.dandwiki.com/wiki/Necromancer_(5e_Class)",
+				"version": "1.0.0",
+				"dateReleased": "2025-04-12"
+			}
+		],
+		"dateAdded": 1744475709,
+		"dateLastModified": 1744475709,
+		"edition": "classic"
+	},
+	"class": [
+		{
+			"name": "Necromancer",
+			"source": "ULDNecromancerClass",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"intimidation",
+								"medicine",
+								"perception",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} or (b) two {@filter simple weapons|items|type=simple weapon}"
+				],
+				"additionalFromBackground": true,
+				"goldAlternative": "{@dice 4d4×10|4d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							{
+								"equipmentType": "weaponMartial"
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple",
+								"quantity": 2
+							}
+						]
+					}
+				]
+			},
+			"spellcastingAbility": "cha",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15,
+				15,
+				15
+			],
+			"casterProgression": "full",
+			"classTableGroups": [
+				{
+					"title": "Class Features",
+					"colLabels": [
+						"Level",
+						"Features",
+						"Cantrips Known",
+						"Spells Known"
+					],
+					"rows": [
+						[
+							"1st",
+							"Spellcasting, Necrotic Suffusion",
+							"2",
+							"2"
+						],
+						[
+							"2nd",
+							"Life on Demand, Unlocked Spells",
+							"2",
+							"3"
+						],
+						[
+							"3rd",
+							"Soul Harvest",
+							"2",
+							"4"
+						],
+						[
+							"4th",
+							"Ability Score Improvement",
+							"3",
+							"5"
+						],
+						[
+							"5th",
+							"Spontaneous Unburial",
+							"3",
+							"6"
+						],
+						[
+							"6th",
+							"Deliverer",
+							"3",
+							"7"
+						],
+						[
+							"7th",
+							"\u2014",
+							"3",
+							"8"
+						],
+						[
+							"8th",
+							"Ability Score Improvement",
+							"3",
+							"9"
+						],
+						[
+							"9th",
+							"\u2014",
+							"3",
+							"10"
+						],
+						[
+							"10th",
+							"Aura of Wellbeing",
+							"4",
+							"11"
+						],
+						[
+							"11th",
+							"Animate Major Undead",
+							"4",
+							"12"
+						],
+						[
+							"12th",
+							"Ability Score Improvement",
+							"4",
+							"12"
+						],
+						[
+							"13th",
+							"\u2014",
+							"4",
+							"13"
+						],
+						[
+							"14th",
+							"Master of Mending",
+							"4",
+							"13"
+						],
+						[
+							"15th",
+							"Animate Major Undead Improvement",
+							"4",
+							"14"
+						],
+						[
+							"16th",
+							"Ability Score Improvement",
+							"4",
+							"14"
+						],
+						[
+							"17th",
+							"\u2014",
+							"4",
+							"15"
+						],
+						[
+							"18th",
+							"Animate Major Undead Improvement",
+							"4",
+							"15"
+						],
+						[
+							"19th",
+							"Ability Score Improvement",
+							"4",
+							"15"
+						],
+						[
+							"20th",
+							"Macabre",
+							"4",
+							"15"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Spellcasting|Necromancer|ULDNecromancerClass|1",
+				"Necrotic Suffusion|Necromancer|ULDNecromancerClass|1",
+				"Life on Demand|Necromancer|ULDNecromancerClass|2",
+				"Unlocked Spells|Necromancer|ULDNecromancerClass|2",
+				"Soul Harvest|Necromancer|ULDNecromancerClass|3",
+				"Ability Score Improvement|Necromancer|ULDNecromancerClass|4",
+				"Spontaneous Unburial|Necromancer|ULDNecromancerClass|5",
+				"Deliverer|Necromancer|ULDNecromancerClass|6",
+				"Aura of Wellbeing|Necromancer|ULDNecromancerClass|10",
+				"Animate Major Undead|Necromancer|ULDNecromancerClass|11",
+				"Ability Score Improvement|Necromancer|ULDNecromancerClass|12",
+				"Master of Mending|Necromancer|ULDNecromancerClass|14",
+				"Animate Major Undead Improvement|Necromancer|ULDNecromancerClass|15",
+				"Ability Score Improvement|Necromancer|ULDNecromancerClass|16",
+				"Animate Major Undead Improvement|Necromancer|ULDNecromancerClass|18",
+				"Ability Score Improvement|Necromancer|ULDNecromancerClass|19",
+				"Macabre|Necromancer|ULDNecromancerClass|20"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Spellcasting",
+			"source": "ULDNecromancerClass",
+			"level": 1,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You are a full caster using Charisma as your spellcasting ability.",
+				"You know 2 cantrips at 1st level and learn more as you level.",
+				"You know 2 spells at 1st level and gain more as shown in the class table.",
+				"You prepare additional spells at certain levels, and can swap known spells when you gain a level.",
+				"You can cast known spells using your available spell slots. You regain slots after a long rest.",
+				"You can cast spells with the ritual tag if you know them.",
+				"You can use an arcane focus as a spellcasting focus.",
+				"Spell Save DC = 8 + proficiency bonus + Charisma modifier",
+				"Spell Attack Modifier = proficiency bonus + Charisma modifier"
+			]
+		},
+		{
+			"name": "Necrotic Suffusion",
+			"source": "ULDNecromancerClass",
+			"level": 1,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"As an action, target one creature within 15 feet. If it's an undead you control, it regains HP equal to 1d8 + Charisma modifier.",
+				"Otherwise, it must make a Constitution saving throw or take necrotic damage equal to 1d8 + Charisma modifier.",
+				"Uses = Charisma modifier (min 1), recharges on long rest.",
+				"Damage/healing increases at 5th (2d8), 11th (3d8), and 17th level (4d8)."
+			]
+		},
+		{
+			"name": "Life on Demand",
+			"source": "ULDNecromancerClass",
+			"level": 2,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"As an action, touch a willing creature. It expends a Hit Die and adds your Charisma modifier.",
+				"It regains HP equal to the result (minimum 1).",
+				"Uses = Charisma modifier (min 1), recharges on long rest."
+			]
+		},
+		{
+			"name": "Unlocked Spells",
+			"source": "ULDNecromancerClass",
+			"level": 2,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You always have the following spells prepared:",
+				"- 2nd: spare the dying, cure wounds, life sap",
+				"- 3rd: lesser restoration, aid",
+				"- 5th: aura of vitality, beacon of hope",
+				"- 7th: aura of life, aura of purity",
+				"- 9th: greater restoration, mass cure wounds",
+				"These do not count against your spells known."
+			]
+		},
+		{
+			"name": "Soul Harvest",
+			"source": "ULDNecromancerClass",
+			"level": 3,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When you or your undead reduce a creature to 0 HP, you can use your reaction to gain temporary HP equal to your Necromancer level + that creature's Constitution modifier (min 1)."
+			]
+		},
+		{
+			"name": "Spontaneous Unburial",
+			"source": "ULDNecromancerClass",
+			"level": 5,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You always know animate dead. It doesn't count against your spells known.",
+				"You can cast it as an action. You don't need a visible corpse\u2014one is summoned from a graveyard, battlefield, etc."
+			]
+		},
+		{
+			"name": "Deliverer",
+			"source": "ULDNecromancerClass",
+			"level": 6,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When a creature within 30 feet is hit by a critical hit, use your reaction to turn it into a normal hit. Cancel any special effects.",
+				"Uses = Charisma modifier (min 1), recharges on long rest."
+			]
+		},
+		{
+			"name": "Aura of Wellbeing",
+			"source": "ULDNecromancerClass",
+			"level": 10,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"Undead that start their turn within 10 feet gain temporary HP = 1d6 + Charisma modifier.",
+				"Creatures within 10 feet who are at or below half HP also gain this."
+			]
+		},
+		{
+			"name": "Animate Major Undead",
+			"source": "ULDNecromancerClass",
+			"level": 11,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You may animate a Huge or smaller CR 5 or lower humanoid, beast, or monstrosity.",
+				"It becomes a Major Undead with either Skeletal or Zombified template.",
+				"You can control only one Major Undead at a time."
+			]
+		},
+		{
+			"name": "Master of Mending",
+			"source": "ULDNecromancerClass",
+			"level": 14,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When healing with a spell or class feature, use the maximum value for each die instead of rolling."
+			]
+		},
+		{
+			"name": "Animate Major Undead Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 15,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You may now animate CR 8 or lower beasts, humanoids, monstrosities, or giants."
+			]
+		},
+		{
+			"name": "Animate Major Undead Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 18,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You may now animate CR 12 or lower beasts, humanoids, monstrosities, giants, dragons, or aberrations.",
+				"You retain control until it drops to 0 HP or you animate another."
+			]
+		},
+		{
+			"name": "Macabre",
+			"source": "ULDNecromancerClass",
+			"level": 20,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"You gain immunity to charmed, exhaustion, frightened, paralyzed, and poisoned.",
+				"You stop aging naturally.",
+				"You gain advantage on Charisma checks vs undead, and they have disadvantage on saves vs your Necromancer spells.",
+				"Mindless undead are indifferent to you unless harmed."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 4,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When you reach 4th, 8th, 12th, 16th, or 19th level, increase one ability score by 2, or two scores by 1. You can't raise a score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 8,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When you reach 4th, 8th, 12th, 16th, or 19th level, increase one ability score by 2, or two scores by 1. You can't raise a score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 12,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When you reach 4th, 8th, 12th, 16th, or 19th level, increase one ability score by 2, or two scores by 1. You can't raise a score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 16,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When you reach 4th, 8th, 12th, 16th, or 19th level, increase one ability score by 2, or two scores by 1. You can't raise a score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "ULDNecromancerClass",
+			"level": 19,
+			"className": "Necromancer",
+			"classSource": "ULDNecromancerClass",
+			"entries": [
+				"When you reach 4th, 8th, 12th, 16th, or 19th level, increase one ability score by 2, or two scores by 1. You can't raise a score above 20 using this feature."
+			]
+		}
+	]
+}
