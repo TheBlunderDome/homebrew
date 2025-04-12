@@ -64,7 +64,7 @@
 					"An arcane focus and studded leather armor"
 				],
 				"additionalFromBackground": true,
-				"goldAlternative": "{@dice 3d4 \u00d7 10}"
+				"goldAlternative": "{@dice 3d4 × 10}"
 			},
 			"multiclassing": {
 				"requirements": {
@@ -186,7 +186,7 @@
 			"classSource": "ULDNecro",
 			"level": 1,
 			"entries": [
-				"As an action, target a creature within 15 feet. If it\u2019s undead under your control, it regains 1d8 + CHA HP. Otherwise, it must make a CON save or take 1d8 + CHA necrotic damage.",
+				"As an action, target a creature within 15 feet. If it's undead under your control, it regains 1d8 + CHA HP. Otherwise, it must make a CON save or take 1d8 + CHA necrotic damage.",
 				"You may use this feature a number of times equal to your CHA modifier (min. 1), regaining uses after a long rest.",
 				"The damage and healing increase to 2d8 at 5th level, 3d8 at 11th, and 4d8 at 17th."
 			]
@@ -200,7 +200,7 @@
 			"entries": [
 				"You draw on the negative energy in the world to fuel your spells.",
 				"**Cantrips**\nAt 1st level, you know 2 cantrips of your choice from the Necromancer Spell List. You learn additional cantrips at higher levels, as shown in the Cantrips Known column of the Necromancer table.",
-				"**Spell Slots**\nThe Necromancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell\u2019s level or higher. You regain all expended spell slots when you finish a long rest.",
+				"**Spell Slots**\nThe Necromancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 				"**Spells Known of 1st Level and Higher**\nYou know two 1st-level spells of your choice from the Necromancer Spell List. The Spells Known column of the Necromancer table shows when you learn more spells. Each must be a level you can cast.",
 				"**Spellcasting Ability**\nCharisma is your spellcasting ability. You use it for spell save DCs and attack rolls with necromancer spells.",
 				"**Ritual Casting**\nYou can cast a Necromancer spell as a ritual if it has the ritual tag and you know it.",
@@ -244,8 +244,8 @@
 			"classSource": "ULDNecro",
 			"level": 5,
 			"entries": [
-				"You learn *animate dead*. It doesn\u2019t count against your spells known.",
-				"You can cast it as an action. You don\u2019t need a visible corpse\u2014graves or battlefields suffice. The nearest suitable body animates and emerges automatically."
+				"You learn *animate dead*. It doesn't count against your spells known.",
+				"You can cast it as an action. You don't need a visible corpse\u2014graves or battlefields suffice. The nearest suitable body animates and emerges automatically."
 			]
 		},
 		{
@@ -283,8 +283,8 @@
 			"entries": [
 				"You can animate a Huge or smaller humanoid, beast, or monstrosity of CR 5 or lower.",
 				"It keeps its stats (except legendary actions/spellcasting), gains undead type, and is modified depending on whether it's Skeletal or Zombified.",
-				"Skeletal: INT/WIS/CHA drop to 7, gains vulnerability to bludgeoning, darkvision 60 ft, 1 known language (can\u2019t speak), and immunity to poison damage, exhaustion, and the poisoned condition.",
-				"Zombified: INT/WIS/CHA drop to 5, gains darkvision 60 ft, 1 known language (can\u2019t speak), immunity to poison damage, exhaustion, and poisoned condition. Gains Undead Fortitude trait.",
+				"Skeletal: INT/WIS/CHA drop to 7, gains vulnerability to bludgeoning, darkvision 60 ft, 1 known language (can't speak), and immunity to poison damage, exhaustion, and the poisoned condition.",
+				"Zombified: INT/WIS/CHA drop to 5, gains darkvision 60 ft, 1 known language (can't speak), immunity to poison damage, exhaustion, and poisoned condition. Gains Undead Fortitude trait.",
 				"You can control 1 Major Undead at a time. Recast to reassert control. Usable once per long rest."
 			]
 		},
@@ -453,7 +453,7 @@
 			"subclassSource": "ULDNecro",
 			"level": 6,
 			"entries": [
-				"When you have temp HP, you may reduce up to 2 \u00d7 CHA modifier temp HP to increase the damage of a necromancy spell by that amount.",
+				"When you have temp HP, you may reduce up to 2 × CHA modifier temp HP to increase the damage of a necromancy spell by that amount.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Bloodbag Army|Necromancer|ULD|Witch Doctor|ULD|6"
@@ -617,7 +617,7 @@
 			"entries": [
 				"Witch Doctors draw from old traditions passed down by sages and outcasts, forging power from death.",
 				"**Spirit Well**\nTouch a corpse to create a Spirit Well with a 10 ft aura. Choose a type:\n- **Blindness**: CON save or blinded until end of turn\n- **Hate**: Extra 1d10 necrotic damage on fail (scales with level)\n- **Restrict**: DEX save or difficult terrain\n- **Succor**: Half cover\n- **Terror**: WIS save or frightened\n\nAdditional wells at higher levels:\n6th: **Darkness**, **Silence**\n10th: **Binding**, **Fatigue**\n14th: **Blood**, **Fortune**, **Misfortune**",
-				"Wells expire after 1 minute or being destroyed (AC 8, 15 HP, immune to poison & psychic). You and your undead auto-succeed on saving throws from your wells. Use 2\u00d7/day, regain 1 on short rest.",
+				"Wells expire after 1 minute or being destroyed (AC 8, 15 HP, immune to poison & psychic). You and your undead auto-succeed on saving throws from your wells. Use 2×/day, regain 1 on short rest.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Bloodbag Army|Necromancer|ULD|Witch Doctor|ULD|6"
@@ -662,7 +662,7 @@
 			"subclassSource": "ULDNecro",
 			"level": 10,
 			"entries": [
-				"You can use your Spirit Well feature on one of your undead. It continues to move and act while projecting the well\u2019s aura. The undead is reduced to ash after 1 minute or when dropped to 0 HP.",
+				"You can use your Spirit Well feature on one of your undead. It continues to move and act while projecting the well's aura. The undead is reduced to ash after 1 minute or when dropped to 0 HP.",
 				"Max active wells equals your proficiency bonus.",
 				{
 					"type": "refSubclassFeature",
@@ -729,7 +729,7 @@
 			"subclassSource": "ULDNecro",
 			"level": 6,
 			"entries": [
-				"When casting *animate dead*, raise one additional undead (doesn\u2019t apply to Major Undead).",
+				"When casting *animate dead*, raise one additional undead (doesn't apply to Major Undead).",
 				"Your undead gain: +CHA to HP max, use your spell attack modifier, resistance to necrotic damage, and immunity to HP/ability score reduction.",
 				{
 					"type": "refSubclassFeature",
